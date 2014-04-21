@@ -11,7 +11,7 @@ function tipstestimonials_uuid_features_default_content() {
   $nodes = array();
 
   $nodes[] = array(
-  'uid' => 1,
+  'uid' => 0,
   'title' => 'Deja Vu',
   'log' => '',
   'status' => 1,
@@ -115,13 +115,13 @@ function tipstestimonials_uuid_features_default_content() {
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
   'comment_count' => 0,
-  'name' => 'admin',
+  'name' => '',
   'picture' => 0,
-  'data' => 'a:1:{s:7:"contact";i:1;}',
+  'data' => NULL,
   'date' => '2014-04-20 12:23:00 -0700',
 );
   $nodes[] = array(
-  'uid' => 1,
+  'uid' => 0,
   'title' => 'Pre-qualify',
   'log' => '',
   'status' => 1,
@@ -215,11 +215,11 @@ function tipstestimonials_uuid_features_default_content() {
   ),
   'cid' => 0,
   'last_comment_name' => NULL,
-  'last_comment_uid' => 1,
+  'last_comment_uid' => 0,
   'comment_count' => 0,
-  'name' => 'admin',
+  'name' => '',
   'picture' => 0,
-  'data' => 'a:1:{s:7:"contact";i:1;}',
+  'data' => NULL,
   'date' => '2014-04-21 09:34:58 -0700',
 );
   return $nodes;
