@@ -1,0 +1,124 @@
+<?php
+/**
+ * @file
+ * tipstestimonials.features.uuid_node.inc
+ */
+
+/**
+ * Implements hook_uuid_features_default_content().
+ */
+function tipstestimonials_uuid_features_default_content() {
+  $nodes = array();
+
+  $nodes[] = array(
+  'uid' => 1,
+  'title' => 'Deja Vu',
+  'log' => '',
+  'status' => 1,
+  'comment' => 1,
+  'promote' => 0,
+  'sticky' => 0,
+  'vuuid' => 'c78941c3-5f50-41e2-b526-66cb3b97e914',
+  'ds_switch' => '',
+  'type' => 'tips',
+  'language' => 'und',
+  'created' => 1398021780,
+  'tnid' => 0,
+  'translate' => 0,
+  'uuid' => '1e5bc8ca-1519-4c05-b9a5-366db0006d98',
+  'revision_uid' => 1,
+  'body' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'This is like deja vu all over again',
+        'summary' => '',
+        'format' => 'plain_text',
+        'safe_value' => '<p>This is like deja vu all over again</p>
+',
+        'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_category' => array(
+    'und' => array(
+      0 => array(
+        'target_id' => 39,
+      ),
+    ),
+  ),
+  'field_author' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Yogi Berra',
+        'format' => NULL,
+        'safe_value' => 'Yogi Berra',
+      ),
+    ),
+  ),
+  'field_more_info' => array(),
+  'rdf_mapping' => array(
+    'rdftype' => array(
+      0 => 'sioc:Item',
+      1 => 'foaf:Document',
+    ),
+    'title' => array(
+      'predicates' => array(
+        0 => 'dc:title',
+      ),
+    ),
+    'created' => array(
+      'predicates' => array(
+        0 => 'dc:date',
+        1 => 'dc:created',
+      ),
+      'datatype' => 'xsd:dateTime',
+      'callback' => 'date_iso8601',
+    ),
+    'changed' => array(
+      'predicates' => array(
+        0 => 'dc:modified',
+      ),
+      'datatype' => 'xsd:dateTime',
+      'callback' => 'date_iso8601',
+    ),
+    'body' => array(
+      'predicates' => array(
+        0 => 'content:encoded',
+      ),
+    ),
+    'uid' => array(
+      'predicates' => array(
+        0 => 'sioc:has_creator',
+      ),
+      'type' => 'rel',
+    ),
+    'name' => array(
+      'predicates' => array(
+        0 => 'foaf:name',
+      ),
+    ),
+    'comment_count' => array(
+      'predicates' => array(
+        0 => 'sioc:num_replies',
+      ),
+      'datatype' => 'xsd:integer',
+    ),
+    'last_activity' => array(
+      'predicates' => array(
+        0 => 'sioc:last_activity_date',
+      ),
+      'datatype' => 'xsd:dateTime',
+      'callback' => 'date_iso8601',
+    ),
+  ),
+  'cid' => 0,
+  'last_comment_name' => NULL,
+  'last_comment_uid' => 1,
+  'comment_count' => 0,
+  'name' => 'admin',
+  'picture' => 0,
+  'data' => 'a:1:{s:7:"contact";i:1;}',
+  'date' => '2014-04-20 12:23:00 -0700',
+);
+  return $nodes;
+}

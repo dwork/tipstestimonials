@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the TipsTestimonials feature.
+ */
+
+include_once 'tipstestimonials.features.inc';
