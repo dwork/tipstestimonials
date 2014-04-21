@@ -154,6 +154,13 @@ function tipstestimonials_views_default_views() {
   $handler = $view->new_display('page', 'Tips', 'page');
   $handler->display->display_options['display_description'] = 'Display view of all tips';
   $handler->display->display_options['path'] = 'tips';
+  $handler->display->display_options['menu']['type'] = 'normal';
+  $handler->display->display_options['menu']['title'] = 'Tips/Testimonials';
+  $handler->display->display_options['menu']['description'] = 'Display and update Tips and Testimonials';
+  $handler->display->display_options['menu']['weight'] = '0';
+  $handler->display->display_options['menu']['name'] = 'main-menu';
+  $handler->display->display_options['menu']['context'] = 0;
+  $handler->display->display_options['menu']['context_only_inline'] = 0;
   $export['tips'] = $view;
 
   $view = new view();
