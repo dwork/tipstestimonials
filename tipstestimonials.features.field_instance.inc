@@ -10,7 +10,7 @@
 function tipstestimonials_field_default_field_instances() {
   $field_instances = array();
 
-  // Exported field_instance: 'node-tips-body'
+  // Exported field_instance: 'node-tips-body'.
   $field_instances['node-tips-body'] = array(
     'bundle' => 'tips',
     'default_value' => NULL,
@@ -56,7 +56,7 @@ function tipstestimonials_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-tips-field_author'
+  // Exported field_instance: 'node-tips-field_author'.
   $field_instances['node-tips-field_author'] = array(
     'bundle' => 'tips',
     'default_value' => NULL,
@@ -97,7 +97,7 @@ function tipstestimonials_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-tips-field_category'
+  // Exported field_instance: 'node-tips-field_category'.
   $field_instances['node-tips-field_category'] = array(
     'bundle' => 'tips',
     'default_value' => NULL,
@@ -142,7 +142,7 @@ function tipstestimonials_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-tips-field_more_info'
+  // Exported field_instance: 'node-tips-field_more_info'.
   $field_instances['node-tips-field_more_info'] = array(
     'bundle' => 'tips',
     'default_value' => NULL,
@@ -169,6 +169,7 @@ function tipstestimonials_field_default_field_instances() {
     'readmore_behaviour' => 'default',
     'required' => 0,
     'settings' => array(
+      'absolute_url' => 1,
       'attributes' => array(
         'class' => '',
         'configurable_title' => 0,
@@ -182,6 +183,7 @@ function tipstestimonials_field_default_field_instances() {
       'enable_tokens' => 1,
       'rel_remove' => 'default',
       'title' => 'optional',
+      'title_label_use_field_label' => FALSE,
       'title_maxlength' => 128,
       'title_value' => '',
       'url' => 0,
@@ -197,7 +199,7 @@ function tipstestimonials_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'taxonomy_term-tips-field_tipstatus'
+  // Exported field_instance: 'taxonomy_term-tips-field_tipstatus'.
   $field_instances['taxonomy_term-tips-field_tipstatus'] = array(
     'bundle' => 'tips',
     'default_value' => array(
