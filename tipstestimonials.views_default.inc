@@ -89,7 +89,7 @@ function tipstestimonials_views_default_views() {
       'empty_column' => 0,
     ),
   );
-  /* Relationship: Entity Reference: Referenced Entity */
+  /* Relationship: Broken/missing handler */
   $handler->display->display_options['relationships']['field_category_target_id']['id'] = 'field_category_target_id';
   $handler->display->display_options['relationships']['field_category_target_id']['table'] = 'field_data_field_category';
   $handler->display->display_options['relationships']['field_category_target_id']['field'] = 'field_category_target_id';
@@ -101,16 +101,11 @@ function tipstestimonials_views_default_views() {
   $handler->display->display_options['fields']['nid']['label'] = '';
   $handler->display->display_options['fields']['nid']['exclude'] = TRUE;
   $handler->display->display_options['fields']['nid']['element_label_colon'] = FALSE;
-  /* Field: Content: Category */
+  /* Field: Broken/missing handler */
   $handler->display->display_options['fields']['field_category']['id'] = 'field_category';
   $handler->display->display_options['fields']['field_category']['table'] = 'field_data_field_category';
   $handler->display->display_options['fields']['field_category']['field'] = 'field_category';
   $handler->display->display_options['fields']['field_category']['exclude'] = TRUE;
-  $handler->display->display_options['fields']['field_category']['type'] = 'entityreference_entity_view';
-  $handler->display->display_options['fields']['field_category']['settings'] = array(
-    'view_mode' => 'default',
-    'links' => 1,
-  );
   /* Field: Content: Title */
   $handler->display->display_options['fields']['title']['id'] = 'title';
   $handler->display->display_options['fields']['title']['table'] = 'node';
@@ -127,7 +122,7 @@ function tipstestimonials_views_default_views() {
   $handler->display->display_options['fields']['body']['id'] = 'body';
   $handler->display->display_options['fields']['body']['table'] = 'field_data_body';
   $handler->display->display_options['fields']['body']['field'] = 'body';
-  /* Sort criterion: Content: Category (field_category) */
+  /* Sort criterion: Broken/missing handler */
   $handler->display->display_options['sorts']['field_category_target_id']['id'] = 'field_category_target_id';
   $handler->display->display_options['sorts']['field_category_target_id']['table'] = 'field_data_field_category';
   $handler->display->display_options['sorts']['field_category_target_id']['field'] = 'field_category_target_id';
@@ -183,13 +178,12 @@ function tipstestimonials_views_default_views() {
   $handler->display->display_options['exposed_form']['type'] = 'basic';
   $handler->display->display_options['pager']['type'] = 'some';
   $handler->display->display_options['pager']['options']['items_per_page'] = '1';
+  $handler->display->display_options['pager']['options']['offset'] = '0';
   $handler->display->display_options['style_plugin'] = 'table';
-  /* Field: Content: Body */
-  $handler->display->display_options['fields']['body']['id'] = 'body';
-  $handler->display->display_options['fields']['body']['table'] = 'field_data_body';
-  $handler->display->display_options['fields']['body']['field'] = 'body';
-  $handler->display->display_options['fields']['body']['label'] = '';
-  $handler->display->display_options['fields']['body']['element_label_colon'] = FALSE;
+  /* Field: Content: Tip */
+  $handler->display->display_options['fields']['field_tip']['id'] = 'field_tip';
+  $handler->display->display_options['fields']['field_tip']['table'] = 'field_data_field_tip';
+  $handler->display->display_options['fields']['field_tip']['field'] = 'field_tip';
   /* Field: Content: Author/Source */
   $handler->display->display_options['fields']['field_author']['id'] = 'field_author';
   $handler->display->display_options['fields']['field_author']['table'] = 'field_data_field_author';
@@ -214,11 +208,13 @@ function tipstestimonials_views_default_views() {
   $handler->display->display_options['filters']['type']['value'] = array(
     'tips' => 'tips',
   );
-  /* Filter criterion: Content: Category (field_category) */
-  $handler->display->display_options['filters']['field_category_target_id']['id'] = 'field_category_target_id';
-  $handler->display->display_options['filters']['field_category_target_id']['table'] = 'field_data_field_category';
-  $handler->display->display_options['filters']['field_category_target_id']['field'] = 'field_category_target_id';
-  $handler->display->display_options['filters']['field_category_target_id']['value']['value'] = 'Testimonials';
+  /* Filter criterion: Content: Tip Type (field_tiptype) */
+  $handler->display->display_options['filters']['field_tiptype_tid']['id'] = 'field_tiptype_tid';
+  $handler->display->display_options['filters']['field_tiptype_tid']['table'] = 'field_data_field_tiptype';
+  $handler->display->display_options['filters']['field_tiptype_tid']['field'] = 'field_tiptype_tid';
+  $handler->display->display_options['filters']['field_tiptype_tid']['type'] = 'select';
+  $handler->display->display_options['filters']['field_tiptype_tid']['vocabulary'] = 'tips';
+  $handler->display->display_options['filters']['field_tiptype_tid']['hierarchy'] = 1;
 
   /* Display: Page */
   $handler = $view->new_display('page', 'Page', 'page');
@@ -251,18 +247,129 @@ function tipstestimonials_views_default_views() {
   $handler->display->display_options['filters']['type']['value'] = array(
     'tips' => 'tips',
   );
-  /* Filter criterion: Content: Category (field_category) */
-  $handler->display->display_options['filters']['field_category_target_id']['id'] = 'field_category_target_id';
-  $handler->display->display_options['filters']['field_category_target_id']['table'] = 'field_data_field_category';
-  $handler->display->display_options['filters']['field_category_target_id']['field'] = 'field_category_target_id';
-  $handler->display->display_options['filters']['field_category_target_id']['operator'] = '!=';
-  $handler->display->display_options['filters']['field_category_target_id']['value']['value'] = 'Testimonials';
+  /* Filter criterion: Content: Tip Type (field_tiptype) */
+  $handler->display->display_options['filters']['field_tiptype_tid']['id'] = 'field_tiptype_tid';
+  $handler->display->display_options['filters']['field_tiptype_tid']['table'] = 'field_data_field_tiptype';
+  $handler->display->display_options['filters']['field_tiptype_tid']['field'] = 'field_tiptype_tid';
+  $handler->display->display_options['filters']['field_tiptype_tid']['value'] = array(
+    36 => '36',
+    40 => '40',
+    39 => '39',
+    35 => '35',
+  );
+  $handler->display->display_options['filters']['field_tiptype_tid']['type'] = 'select';
+  $handler->display->display_options['filters']['field_tiptype_tid']['vocabulary'] = 'tips';
+  $handler->display->display_options['filters']['field_tiptype_tid']['hierarchy'] = 1;
+  $handler->display->display_options['block_description'] = 'Rotating Tips';
 
   /* Display: Testimonials */
   $handler = $view->new_display('block', 'Testimonials', 'block_1');
   $handler->display->display_options['defaults']['title'] = FALSE;
   $handler->display->display_options['title'] = 'Rotating Tips';
   $handler->display->display_options['display_description'] = 'Rotating Tips';
+  $handler->display->display_options['defaults']['style_plugin'] = FALSE;
+  $handler->display->display_options['style_plugin'] = 'default';
+  $handler->display->display_options['defaults']['style_options'] = FALSE;
+  $handler->display->display_options['defaults']['row_plugin'] = FALSE;
+  $handler->display->display_options['row_plugin'] = 'fields';
+  $handler->display->display_options['defaults']['row_options'] = FALSE;
+  $handler->display->display_options['defaults']['fields'] = FALSE;
+  /* Field: Content: Tip */
+  $handler->display->display_options['fields']['field_tip']['id'] = 'field_tip';
+  $handler->display->display_options['fields']['field_tip']['table'] = 'field_data_field_tip';
+  $handler->display->display_options['fields']['field_tip']['field'] = 'field_tip';
+  $handler->display->display_options['fields']['field_tip']['label'] = 'Testimonial';
+  /* Field: Content: Author/Source */
+  $handler->display->display_options['fields']['field_author']['id'] = 'field_author';
+  $handler->display->display_options['fields']['field_author']['table'] = 'field_data_field_author';
+  $handler->display->display_options['fields']['field_author']['field'] = 'field_author';
+  $handler->display->display_options['fields']['field_author']['label'] = '';
+  $handler->display->display_options['fields']['field_author']['element_label_colon'] = FALSE;
+  $handler->display->display_options['defaults']['filter_groups'] = FALSE;
+  $handler->display->display_options['defaults']['filters'] = FALSE;
+  /* Filter criterion: Content: Published */
+  $handler->display->display_options['filters']['status']['id'] = 'status';
+  $handler->display->display_options['filters']['status']['table'] = 'node';
+  $handler->display->display_options['filters']['status']['field'] = 'status';
+  $handler->display->display_options['filters']['status']['value'] = 1;
+  $handler->display->display_options['filters']['status']['group'] = 1;
+  $handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
+  /* Filter criterion: Content: Type */
+  $handler->display->display_options['filters']['type']['id'] = 'type';
+  $handler->display->display_options['filters']['type']['table'] = 'node';
+  $handler->display->display_options['filters']['type']['field'] = 'type';
+  $handler->display->display_options['filters']['type']['value'] = array(
+    'tips' => 'tips',
+  );
+  /* Filter criterion: Content: Tip Type (field_tiptype) */
+  $handler->display->display_options['filters']['field_tiptype_tid']['id'] = 'field_tiptype_tid';
+  $handler->display->display_options['filters']['field_tiptype_tid']['table'] = 'field_data_field_tiptype';
+  $handler->display->display_options['filters']['field_tiptype_tid']['field'] = 'field_tiptype_tid';
+  $handler->display->display_options['filters']['field_tiptype_tid']['value'] = array(
+    37 => '37',
+  );
+  $handler->display->display_options['filters']['field_tiptype_tid']['type'] = 'select';
+  $handler->display->display_options['filters']['field_tiptype_tid']['vocabulary'] = 'tips';
+  $handler->display->display_options['filters']['field_tiptype_tid']['hierarchy'] = 1;
+  $handler->display->display_options['block_description'] = 'Rotating Testimonials';
+
+  /* Display: Real Estate */
+  $handler = $view->new_display('block', 'Real Estate', 'block_2');
+  $handler->display->display_options['defaults']['title'] = FALSE;
+  $handler->display->display_options['title'] = 'Rotating Tips';
+  $handler->display->display_options['display_description'] = 'Rotating Real Estate Tips';
+  $handler->display->display_options['defaults']['style_plugin'] = FALSE;
+  $handler->display->display_options['style_plugin'] = 'default';
+  $handler->display->display_options['defaults']['style_options'] = FALSE;
+  $handler->display->display_options['defaults']['row_plugin'] = FALSE;
+  $handler->display->display_options['row_plugin'] = 'fields';
+  $handler->display->display_options['defaults']['row_options'] = FALSE;
+  $handler->display->display_options['defaults']['fields'] = FALSE;
+  /* Field: Content: Tip */
+  $handler->display->display_options['fields']['field_tip']['id'] = 'field_tip';
+  $handler->display->display_options['fields']['field_tip']['table'] = 'field_data_field_tip';
+  $handler->display->display_options['fields']['field_tip']['field'] = 'field_tip';
+  $handler->display->display_options['fields']['field_tip']['label'] = 'Testimonial';
+  /* Field: Content: Author/Source */
+  $handler->display->display_options['fields']['field_author']['id'] = 'field_author';
+  $handler->display->display_options['fields']['field_author']['table'] = 'field_data_field_author';
+  $handler->display->display_options['fields']['field_author']['field'] = 'field_author';
+  $handler->display->display_options['fields']['field_author']['label'] = '';
+  $handler->display->display_options['fields']['field_author']['element_label_colon'] = FALSE;
+  $handler->display->display_options['defaults']['filter_groups'] = FALSE;
+  $handler->display->display_options['defaults']['filters'] = FALSE;
+  /* Filter criterion: Content: Published */
+  $handler->display->display_options['filters']['status']['id'] = 'status';
+  $handler->display->display_options['filters']['status']['table'] = 'node';
+  $handler->display->display_options['filters']['status']['field'] = 'status';
+  $handler->display->display_options['filters']['status']['value'] = 1;
+  $handler->display->display_options['filters']['status']['group'] = 1;
+  $handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
+  /* Filter criterion: Content: Type */
+  $handler->display->display_options['filters']['type']['id'] = 'type';
+  $handler->display->display_options['filters']['type']['table'] = 'node';
+  $handler->display->display_options['filters']['type']['field'] = 'type';
+  $handler->display->display_options['filters']['type']['value'] = array(
+    'tips' => 'tips',
+  );
+  /* Filter criterion: Content: Tip Type (field_tiptype) */
+  $handler->display->display_options['filters']['field_tiptype_tid']['id'] = 'field_tiptype_tid';
+  $handler->display->display_options['filters']['field_tiptype_tid']['table'] = 'field_data_field_tiptype';
+  $handler->display->display_options['filters']['field_tiptype_tid']['field'] = 'field_tiptype_tid';
+  $handler->display->display_options['filters']['field_tiptype_tid']['value'] = array(
+    41 => '41',
+    38 => '38',
+  );
+  $handler->display->display_options['filters']['field_tiptype_tid']['type'] = 'select';
+  $handler->display->display_options['filters']['field_tiptype_tid']['vocabulary'] = 'tips';
+  $handler->display->display_options['filters']['field_tiptype_tid']['hierarchy'] = 1;
+  $handler->display->display_options['block_description'] = 'Rotating Real Estate tips';
+
+  /* Display: All Tips */
+  $handler = $view->new_display('block', 'All Tips', 'block_3');
+  $handler->display->display_options['defaults']['title'] = FALSE;
+  $handler->display->display_options['title'] = 'Rotating Tips';
+  $handler->display->display_options['display_description'] = 'Rotating Tips (All)';
   $handler->display->display_options['defaults']['style_plugin'] = FALSE;
   $handler->display->display_options['style_plugin'] = 'default';
   $handler->display->display_options['defaults']['style_options'] = FALSE;
@@ -285,11 +392,18 @@ function tipstestimonials_views_default_views() {
   $handler->display->display_options['filters']['type']['value'] = array(
     'tips' => 'tips',
   );
-  /* Filter criterion: Content: Category (field_category) */
-  $handler->display->display_options['filters']['field_category_target_id']['id'] = 'field_category_target_id';
-  $handler->display->display_options['filters']['field_category_target_id']['table'] = 'field_data_field_category';
-  $handler->display->display_options['filters']['field_category_target_id']['field'] = 'field_category_target_id';
-  $handler->display->display_options['filters']['field_category_target_id']['value']['value'] = 'Testimonials';
+  /* Filter criterion: Content: Tip Type (field_tiptype) */
+  $handler->display->display_options['filters']['field_tiptype_tid']['id'] = 'field_tiptype_tid';
+  $handler->display->display_options['filters']['field_tiptype_tid']['table'] = 'field_data_field_tiptype';
+  $handler->display->display_options['filters']['field_tiptype_tid']['field'] = 'field_tiptype_tid';
+  $handler->display->display_options['filters']['field_tiptype_tid']['operator'] = 'not';
+  $handler->display->display_options['filters']['field_tiptype_tid']['value'] = array(
+    37 => '37',
+  );
+  $handler->display->display_options['filters']['field_tiptype_tid']['type'] = 'select';
+  $handler->display->display_options['filters']['field_tiptype_tid']['vocabulary'] = 'tips';
+  $handler->display->display_options['filters']['field_tiptype_tid']['hierarchy'] = 1;
+  $handler->display->display_options['block_description'] = 'Rotating Tips (All)';
   $export['tips_rotating'] = $view;
 
   return $export;
