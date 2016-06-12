@@ -10,19 +10,19 @@
 function tipstestimonials_field_default_field_instances() {
   $field_instances = array();
 
-  // Exported field_instance: 'node-tips-field_author'.
-  $field_instances['node-tips-field_author'] = array(
+  // Exported field_instance: 'node-tips-field_author_source'.
+  $field_instances['node-tips-field_author_source'] = array(
     'bundle' => 'tips',
     'default_value' => NULL,
     'deleted' => 0,
-    'description' => 'Author or source for this tip/quote',
+    'description' => '',
     'display' => array(
       'default' => array(
         'label' => 'above',
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 2,
+        'weight' => 6,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -32,7 +32,7 @@ function tipstestimonials_field_default_field_instances() {
       ),
     ),
     'entity_type' => 'node',
-    'field_name' => 'field_author',
+    'field_name' => 'field_author_source',
     'label' => 'Author/Source',
     'readmore_behaviour' => 'default',
     'required' => 0,
@@ -44,10 +44,10 @@ function tipstestimonials_field_default_field_instances() {
       'active' => 1,
       'module' => 'text',
       'settings' => array(
-        'size' => 40,
+        'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 6,
+      'weight' => 5,
     ),
   );
 
@@ -104,7 +104,7 @@ function tipstestimonials_field_default_field_instances() {
       'module' => 'link',
       'settings' => array(),
       'type' => 'link_field',
-      'weight' => 7,
+      'weight' => 6,
     ),
   );
 
@@ -147,7 +147,7 @@ function tipstestimonials_field_default_field_instances() {
         'summary_rows' => 5,
       ),
       'type' => 'text_textarea_with_summary',
-      'weight' => 4,
+      'weight' => 3,
     ),
   );
 
@@ -185,7 +185,7 @@ function tipstestimonials_field_default_field_instances() {
       'module' => 'options',
       'settings' => array(),
       'type' => 'options_select',
-      'weight' => 3,
+      'weight' => 2,
     ),
   );
 
@@ -229,7 +229,6 @@ function tipstestimonials_field_default_field_instances() {
   // Translatables
   // Included for use with string extractors like potx.
   t('Actual tip or testimonial ');
-  t('Author or source for this tip/quote');
   t('Author/Source');
   t('Include or exclude this category when displaying tips.');
   t('More Info');

@@ -27,7 +27,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '00bc9d46-aecc-4a7f-b651-c45d59b6c291',
   'revision_uid' => 1,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -49,6 +48,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -134,7 +134,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '06acdaa3-883f-40bb-ab78-5bc42a4267ab',
   'revision_uid' => 1,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -156,6 +155,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -241,15 +241,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '07100b91-46f2-4a7a-ad40-d47738858023',
   'revision_uid' => 1,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Yogi Berra',
-        'format' => NULL,
-        'safe_value' => 'Yogi Berra',
-      ),
-    ),
-  ),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -268,6 +259,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>I knew I was going to take the wrong train, so I left early.</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Yogi Berra',
+        'format' => NULL,
+        'safe_value' => 'Yogi Berra',
       ),
     ),
   ),
@@ -356,15 +356,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '08a3e382-1d00-4f52-9c2c-9af23b0d485c',
   'revision_uid' => 1,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Yogi Berra',
-        'format' => NULL,
-        'safe_value' => 'Yogi Berra',
-      ),
-    ),
-  ),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -383,6 +374,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>I&#039;d find the fellow who lost it, and, if he was poor, I&#039;d return it.&quot; -- When asked what he would do if he found a million dollars</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Yogi Berra',
+        'format' => NULL,
+        'safe_value' => 'Yogi Berra',
       ),
     ),
   ),
@@ -471,15 +471,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '094d1143-17a0-4f50-a5f5-23e060b04264',
   'revision_uid' => 1,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'ROBIN WILLIAMS',
-        'format' => NULL,
-        'safe_value' => 'ROBIN WILLIAMS',
-      ),
-    ),
-  ),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -498,6 +489,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>Death is nature&#039;s way of saying, Your table is ready.</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'ROBIN WILLIAMS',
+        'format' => NULL,
+        'safe_value' => 'ROBIN WILLIAMS',
       ),
     ),
   ),
@@ -586,15 +586,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '09a29762-77b1-49f6-a3b2-3b6d5d3a8b75',
   'revision_uid' => 1,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Yogi Berra',
-        'format' => NULL,
-        'safe_value' => 'Yogi Berra',
-      ),
-    ),
-  ),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -613,6 +604,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>Once, Yogi&#039;s wife Carmen asked, &quot;Yogi, you are from St. Louis, we live in New Jersey, and you played ball in New York. If you go before I do, where would you like me to have you buried?&quot; Yogi replied, &quot;Surprise me.&quot;</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Yogi Berra',
+        'format' => NULL,
+        'safe_value' => 'Yogi Berra',
       ),
     ),
   ),
@@ -701,7 +701,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '09e86696-cee2-4cc0-b21b-d3c5935a1d74',
   'revision_uid' => 1,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -723,6 +722,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -808,15 +808,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '12420941-6e23-4565-8178-d91c350e4335',
   'revision_uid' => 1,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Yogi Berra',
-        'format' => NULL,
-        'safe_value' => 'Yogi Berra',
-      ),
-    ),
-  ),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -835,6 +826,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>You&#039;ve got to be very careful if you don&#039;t know where you&#039;re going, because you might not get there.</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Yogi Berra',
+        'format' => NULL,
+        'safe_value' => 'Yogi Berra',
       ),
     ),
   ),
@@ -923,7 +923,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '1475eec8-33bf-4292-86ae-75bdab53dbf6',
   'revision_uid' => 1,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -945,6 +944,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -1030,7 +1030,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '14b62ec1-3571-4654-97f1-7baa942c36fd',
   'revision_uid' => 1,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -1052,6 +1051,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -1137,7 +1137,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '17ba47b0-e7f5-4a04-bf9a-53c7f0e36324',
   'revision_uid' => 1,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -1159,6 +1158,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -1244,15 +1244,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '1e740d77-c73d-4a9b-85d6-1caea9e73ef1',
   'revision_uid' => 1,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'G. K. CHESTERTON',
-        'format' => NULL,
-        'safe_value' => 'G. K. CHESTERTON',
-      ),
-    ),
-  ),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -1271,6 +1262,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>I owe my success to having listened respectfully to the very best advice, and then going away and doing the exact opposite.</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'G. K. CHESTERTON',
+        'format' => NULL,
+        'safe_value' => 'G. K. CHESTERTON',
       ),
     ),
   ),
@@ -1359,15 +1359,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '202e7237-9189-41e6-a3ed-62c1f419c8bd',
   'revision_uid' => 1,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Yogi Berra',
-        'format' => NULL,
-        'safe_value' => 'Yogi Berra',
-      ),
-    ),
-  ),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -1386,6 +1377,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>You can observe a lot just by watching</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Yogi Berra',
+        'format' => NULL,
+        'safe_value' => 'Yogi Berra',
       ),
     ),
   ),
@@ -1474,7 +1474,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '2a53596a-660b-4ccb-84ad-114d6b60b571',
   'revision_uid' => 0,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -1496,6 +1495,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -1581,15 +1581,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '2bc228c8-0735-455d-ae9b-12f6698ede26',
   'revision_uid' => 1,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'ERMA BOMBECK',
-        'format' => NULL,
-        'safe_value' => 'ERMA BOMBECK',
-      ),
-    ),
-  ),
   'field_more_info' => array(),
   'field_tiptype' => array(),
   'field_tip' => array(
@@ -1601,6 +1592,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>Anything dropped in the bathroom will fall in the toilet.</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'ERMA BOMBECK',
+        'format' => NULL,
+        'safe_value' => 'ERMA BOMBECK',
       ),
     ),
   ),
@@ -1689,15 +1689,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '2dddd78f-d6cc-4c54-9c5d-6cf731200d43',
   'revision_uid' => 1,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Yogi Berra',
-        'format' => NULL,
-        'safe_value' => 'Yogi Berra',
-      ),
-    ),
-  ),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -1716,6 +1707,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>A nickel isn&#039;t worth a dime today</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Yogi Berra',
+        'format' => NULL,
+        'safe_value' => 'Yogi Berra',
       ),
     ),
   ),
@@ -1804,7 +1804,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '34c2c530-dd9f-469f-b592-206db71efb10',
   'revision_uid' => 1,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -1826,6 +1825,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -1911,15 +1911,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '368d1a21-72e7-450a-820d-5bd82e795af4',
   'revision_uid' => 1,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'THOMAS EDISON',
-        'format' => NULL,
-        'safe_value' => 'THOMAS EDISON',
-      ),
-    ),
-  ),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -1938,6 +1929,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>Many of life&#039;s failures are people who did not realize how close they were to success when they gave up.</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'THOMAS EDISON',
+        'format' => NULL,
+        'safe_value' => 'THOMAS EDISON',
       ),
     ),
   ),
@@ -2026,15 +2026,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '3ae4f46b-6679-4052-9876-f3b97fb868cc',
   'revision_uid' => 1,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'WALTER CHRYSLER',
-        'format' => NULL,
-        'safe_value' => 'WALTER CHRYSLER',
-      ),
-    ),
-  ),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -2053,6 +2044,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>The real secret of success is enthusiasm</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'WALTER CHRYSLER',
+        'format' => NULL,
+        'safe_value' => 'WALTER CHRYSLER',
       ),
     ),
   ),
@@ -2141,15 +2141,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '3b328272-f4cc-4f9f-ad51-206c1d2ec943',
   'revision_uid' => 1,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'GROUCHO MARX',
-        'format' => NULL,
-        'safe_value' => 'GROUCHO MARX',
-      ),
-    ),
-  ),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -2168,6 +2159,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>Either this man is dead or my watch has stopped.</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'GROUCHO MARX',
+        'format' => NULL,
+        'safe_value' => 'GROUCHO MARX',
       ),
     ),
   ),
@@ -2256,15 +2256,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '3ba65a83-86d4-41a6-8c44-1edf5162087a',
   'revision_uid' => 1,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'MICKEY ROONEY',
-        'format' => NULL,
-        'safe_value' => 'MICKEY ROONEY',
-      ),
-    ),
-  ),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -2283,6 +2274,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>I buy women shoes, and they use them to walk away from me.</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'MICKEY ROONEY',
+        'format' => NULL,
+        'safe_value' => 'MICKEY ROONEY',
       ),
     ),
   ),
@@ -2371,15 +2371,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '3bd79a21-b7af-47e4-baca-b0d529365e9a',
   'revision_uid' => 1,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Yogi Berra',
-        'format' => NULL,
-        'safe_value' => 'Yogi Berra',
-      ),
-    ),
-  ),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -2398,6 +2389,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>It gets late early out there. -- Referring to the bad sun conditions in left field at the stadium.</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Yogi Berra',
+        'format' => NULL,
+        'safe_value' => 'Yogi Berra',
       ),
     ),
   ),
@@ -2486,15 +2486,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '3c5a09d0-e9bd-4cab-bda0-875a01e3cc7f',
   'revision_uid' => 1,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Yogi Berra',
-        'format' => NULL,
-        'safe_value' => 'Yogi Berra',
-      ),
-    ),
-  ),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -2513,6 +2504,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>If you come to a fork in the road, take it</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Yogi Berra',
+        'format' => NULL,
+        'safe_value' => 'Yogi Berra',
       ),
     ),
   ),
@@ -2601,7 +2601,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '3ce9f519-e311-4de6-94e1-29bbbb419081',
   'revision_uid' => 1,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -2623,6 +2622,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -2708,7 +2708,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '3e23df04-31bf-42ae-93a5-73d02d7b5c6e',
   'revision_uid' => 1,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -2730,6 +2729,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -2815,7 +2815,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '40541616-b424-4068-a4eb-105646262a07',
   'revision_uid' => 1,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -2837,6 +2836,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -2922,7 +2922,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '45067bbb-f2f7-43dc-ac96-456d07ee5014',
   'revision_uid' => 1,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -2944,6 +2943,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -3029,7 +3029,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '4caa94f8-165b-4272-ac18-91ca925511bb',
   'revision_uid' => 1,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -3051,6 +3050,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -3136,7 +3136,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '4d241458-b553-4e3f-9418-da1e347ed508',
   'revision_uid' => 1,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -3158,6 +3157,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -3243,15 +3243,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '4d2b8d1b-cd97-4e69-a033-a82a2ed78dcb',
   'revision_uid' => 1,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'LILY TOMLIN',
-        'format' => NULL,
-        'safe_value' => 'LILY TOMLIN',
-      ),
-    ),
-  ),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -3270,6 +3261,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>We&#039;re all in this alone.</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'LILY TOMLIN',
+        'format' => NULL,
+        'safe_value' => 'LILY TOMLIN',
       ),
     ),
   ),
@@ -3358,15 +3358,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '4f254ac7-c380-47df-b56b-3c3b995c7b46',
   'revision_uid' => 1,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Yogi Berra',
-        'format' => NULL,
-        'safe_value' => 'Yogi Berra',
-      ),
-    ),
-  ),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -3385,6 +3376,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>&quot;Do you mean now?&quot; -- When asked for the time</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Yogi Berra',
+        'format' => NULL,
+        'safe_value' => 'Yogi Berra',
       ),
     ),
   ),
@@ -3473,15 +3473,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '4f95f4fd-74b4-47d3-92ac-2290328c6e56',
   'revision_uid' => 1,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Yogi Berra',
-        'format' => NULL,
-        'safe_value' => 'Yogi Berra',
-      ),
-    ),
-  ),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -3500,6 +3491,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>If you don&#039;t know where you are going, you will wind up somewhere else</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Yogi Berra',
+        'format' => NULL,
+        'safe_value' => 'Yogi Berra',
       ),
     ),
   ),
@@ -3588,15 +3588,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '530b6cc4-a5d4-4bee-8f9c-1edd6c0c93ae',
   'revision_uid' => 1,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Yogi Berra',
-        'format' => NULL,
-        'safe_value' => 'Yogi Berra',
-      ),
-    ),
-  ),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -3615,6 +3606,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>You better cut the pizza in four pieces because I&#039;m not hungry enough to eat six</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Yogi Berra',
+        'format' => NULL,
+        'safe_value' => 'Yogi Berra',
       ),
     ),
   ),
@@ -3703,15 +3703,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '538ea94c-7242-4e1c-9c0b-4385a2f0b91b',
   'revision_uid' => 1,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'GLORIA STEINEM',
-        'format' => NULL,
-        'safe_value' => 'GLORIA STEINEM',
-      ),
-    ),
-  ),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -3730,6 +3721,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>The only thing I can&#039;t stand is discomfort.</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'GLORIA STEINEM',
+        'format' => NULL,
+        'safe_value' => 'GLORIA STEINEM',
       ),
     ),
   ),
@@ -3818,15 +3818,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '53e5082f-591f-4b8c-ad2b-5edfe8af0147',
   'revision_uid' => 1,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'W. H. AUDEN',
-        'format' => NULL,
-        'safe_value' => 'W. H. AUDEN',
-      ),
-    ),
-  ),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -3845,6 +3836,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>We are here on earth to do good to others. What the others are here for, I don&#039;t know.</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'W. H. AUDEN',
+        'format' => NULL,
+        'safe_value' => 'W. H. AUDEN',
       ),
     ),
   ),
@@ -3933,15 +3933,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '54360947-af10-4e02-88a7-f8118449f012',
   'revision_uid' => 1,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Yogi Berra',
-        'format' => NULL,
-        'safe_value' => 'Yogi Berra',
-      ),
-    ),
-  ),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -3960,6 +3951,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>It was impossible to get a conversation going, everybody was talking too much</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Yogi Berra',
+        'format' => NULL,
+        'safe_value' => 'Yogi Berra',
       ),
     ),
   ),
@@ -4048,15 +4048,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '59899231-5649-45d8-8e85-b9c897a7d595',
   'revision_uid' => 1,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'JAPANESE PROVERB',
-        'format' => NULL,
-        'safe_value' => 'JAPANESE PROVERB',
-      ),
-    ),
-  ),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -4075,6 +4066,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>Fall seven times, stand up eight.</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'JAPANESE PROVERB',
+        'format' => NULL,
+        'safe_value' => 'JAPANESE PROVERB',
       ),
     ),
   ),
@@ -4163,15 +4163,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '59f1be1b-f439-441f-8620-6dd077e37f6d',
   'revision_uid' => 1,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'WOODY ALLEN',
-        'format' => NULL,
-        'safe_value' => 'WOODY ALLEN',
-      ),
-    ),
-  ),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -4190,6 +4181,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>I don&#039;t want to achieve immortality through my work. I want to achieve it through not dying. I want to achieve it through not dying.</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'WOODY ALLEN',
+        'format' => NULL,
+        'safe_value' => 'WOODY ALLEN',
       ),
     ),
   ),
@@ -4278,7 +4278,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '5ad7dfc3-c807-470c-b5d7-9750128d5e0a',
   'revision_uid' => 1,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -4300,6 +4299,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -4385,7 +4385,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '655ea152-f1ae-4143-9252-c82efedc2778',
   'revision_uid' => 1,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -4407,6 +4406,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -4492,15 +4492,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '66dce4a9-624e-4f24-93db-6c7f9a69e27c',
   'revision_uid' => 1,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'GARRISON KEILLOR',
-        'format' => NULL,
-        'safe_value' => 'GARRISON KEILLOR',
-      ),
-    ),
-  ),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -4519,6 +4510,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>Cats are intended to teach us that not everything in nature has a function.</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'GARRISON KEILLOR',
+        'format' => NULL,
+        'safe_value' => 'GARRISON KEILLOR',
       ),
     ),
   ),
@@ -4607,15 +4607,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '685e81f8-7e2e-40d7-8aea-78595c42cc62',
   'revision_uid' => 1,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'JAY LENO',
-        'format' => NULL,
-        'safe_value' => 'JAY LENO',
-      ),
-    ),
-  ),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -4634,6 +4625,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>As Miss America, my goal is to bring peace to the entire world and then to get my own apartment.</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'JAY LENO',
+        'format' => NULL,
+        'safe_value' => 'JAY LENO',
       ),
     ),
   ),
@@ -4722,15 +4722,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '690c5db0-ce8e-4734-a010-df0fdbf4a425',
   'revision_uid' => 1,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Scott Adams',
-        'format' => NULL,
-        'safe_value' => 'Scott Adams',
-      ),
-    ),
-  ),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -4749,6 +4740,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>The most ineffective workers are systematically moved to the place where they can do the least damage: management - Scott Adams</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Scott Adams',
+        'format' => NULL,
+        'safe_value' => 'Scott Adams',
       ),
     ),
   ),
@@ -4837,15 +4837,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '69e80142-98d3-40b4-9f72-a122b24477ac',
   'revision_uid' => 1,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'YODA',
-        'format' => NULL,
-        'safe_value' => 'YODA',
-      ),
-    ),
-  ),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -4864,6 +4855,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>Do or do not. There is no try.</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'YODA',
+        'format' => NULL,
+        'safe_value' => 'YODA',
       ),
     ),
   ),
@@ -4952,7 +4952,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '69f53c4f-484d-4bbc-a4ff-8bd88abb2c53',
   'revision_uid' => 0,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -4974,6 +4973,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -5059,7 +5059,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '6afed5bf-dfd4-4030-946f-a4d9be37fb8e',
   'revision_uid' => 0,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -5081,6 +5080,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -5166,7 +5166,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '6c967d00-d712-415f-8c5b-863a03218cc2',
   'revision_uid' => 0,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -5188,6 +5187,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -5273,7 +5273,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '6cfcbf8a-f3e9-45a3-82db-c7e0f94d81b5',
   'revision_uid' => 0,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -5295,6 +5294,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -5380,7 +5380,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '7594a0bd-71e4-405c-b4bb-01454ac119ec',
   'revision_uid' => 0,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -5402,6 +5401,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -5486,16 +5486,7 @@ function tipstestimonials_uuid_features_default_content() {
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '7a9ef6a8-279c-4153-ae3c-7cf0347edb6f',
-  'revision_uid' => 0,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Dr. Lawrence J. Peter',
-        'format' => NULL,
-        'safe_value' => 'Dr. Lawrence J. Peter',
-      ),
-    ),
-  ),
+  'revision_uid' => 1,
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -5514,6 +5505,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>In a Hierarchy Every Employee Tends to Rise to His Level of Incompetence - Dr. Lawrence J. Peter</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Dr. Lawrence J. Peter',
+        'format' => NULL,
+        'safe_value' => 'Dr. Lawrence J. Peter',
       ),
     ),
   ),
@@ -5602,7 +5602,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '7e7f2752-493d-4d33-b5f7-668eb09f81c2',
   'revision_uid' => 0,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -5624,6 +5623,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -5709,7 +5709,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '7e8b9124-2464-43f3-9e62-5ee98432fd24',
   'revision_uid' => 0,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -5731,6 +5730,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -5816,7 +5816,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '8b327092-fd2c-4712-990b-ebd6360d4557',
   'revision_uid' => 0,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -5838,6 +5837,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -5922,16 +5922,7 @@ function tipstestimonials_uuid_features_default_content() {
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '8b6f96e2-8eef-489c-9eb8-1408c900c011',
-  'revision_uid' => 0,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Arthur C. Clark',
-        'format' => NULL,
-        'safe_value' => 'Arthur C. Clark',
-      ),
-    ),
-  ),
+  'revision_uid' => 1,
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -5950,6 +5941,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>Any sufficiently advanced technology is indistinguishable from magic -- Arthur C. Clark</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Arthur C. Clark',
+        'format' => NULL,
+        'safe_value' => 'Arthur C. Clark',
       ),
     ),
   ),
@@ -6038,7 +6038,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '8c396b23-fb45-427c-9018-599e8fe3328c',
   'revision_uid' => 0,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -6060,6 +6059,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -6145,7 +6145,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '8c824f7c-2c19-4aba-965e-8af9121759a8',
   'revision_uid' => 0,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -6167,6 +6166,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -6252,7 +6252,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '8e915847-253e-4c6a-b8ee-4df8aab0801b',
   'revision_uid' => 0,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -6274,6 +6273,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -6359,7 +6359,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '90e45222-b78d-478c-9c53-d8a3a8201ae8',
   'revision_uid' => 1,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -6381,6 +6380,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -6466,7 +6466,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '918c721e-c945-47d0-ad27-fc846b7d22fe',
   'revision_uid' => 1,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -6488,6 +6487,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -6573,15 +6573,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '92f70554-0286-49c2-955f-14d9d4fab533',
   'revision_uid' => 1,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Yogi Berra',
-        'format' => NULL,
-        'safe_value' => 'Yogi Berra',
-      ),
-    ),
-  ),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -6600,6 +6591,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>Slump? I ain&#039;t in no slump. I just ain&#039;t hitting</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Yogi Berra',
+        'format' => NULL,
+        'safe_value' => 'Yogi Berra',
       ),
     ),
   ),
@@ -6688,7 +6688,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '968c29ab-2f7f-4cd1-9da9-d6df3747a455',
   'revision_uid' => 1,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -6710,6 +6709,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -6795,7 +6795,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '9739c096-d711-42be-93d5-28776545ab6e',
   'revision_uid' => 1,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -6817,6 +6816,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -6902,15 +6902,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '98d3728e-411d-45b5-a126-18bc11ae24f5',
   'revision_uid' => 1,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'BERTOLT BRECHT',
-        'format' => NULL,
-        'safe_value' => 'BERTOLT BRECHT',
-      ),
-    ),
-  ),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -6929,6 +6920,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>Do not fear death so much, but rather the inadequate life.</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'BERTOLT BRECHT',
+        'format' => NULL,
+        'safe_value' => 'BERTOLT BRECHT',
       ),
     ),
   ),
@@ -7017,7 +7017,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '9af4a5a1-a353-49af-9296-fd271b52cc38',
   'revision_uid' => 1,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -7039,6 +7038,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -7124,15 +7124,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '9c60821f-a93a-434f-9abc-08ec37606d7e',
   'revision_uid' => 1,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Yogi Berra',
-        'format' => NULL,
-        'safe_value' => 'Yogi Berra',
-      ),
-    ),
-  ),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -7151,6 +7142,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>Nobody goes there anymore; it&#039;s too crowded</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Yogi Berra',
+        'format' => NULL,
+        'safe_value' => 'Yogi Berra',
       ),
     ),
   ),
@@ -7239,7 +7239,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'a2bffc44-a83d-4e3c-99a5-7857832a1419',
   'revision_uid' => 1,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -7261,6 +7260,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -7346,7 +7346,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'a51854b8-c4f9-4665-99a6-0e8946022b0f',
   'revision_uid' => 1,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -7368,6 +7367,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -7453,7 +7453,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'a942fdb7-0692-429b-9b74-9a9f903d32e0',
   'revision_uid' => 1,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -7475,6 +7474,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -7560,7 +7560,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'aa85d334-ecec-4212-80e0-e1737ca960ee',
   'revision_uid' => 1,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -7582,6 +7581,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -7667,7 +7667,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'acdc41e9-e821-4b60-8e02-e84664822897',
   'revision_uid' => 0,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -7689,6 +7688,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -7774,7 +7774,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'ade99af9-20f5-4782-8c8d-9474a990c93b',
   'revision_uid' => 0,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -7796,6 +7795,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -7881,7 +7881,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'b30b948b-1e51-4dc7-ba19-43a685d2d8ea',
   'revision_uid' => 1,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -7903,6 +7902,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -7988,15 +7988,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'b63b4d3e-6426-4ed9-9f84-a2c92be14ecd',
   'revision_uid' => 1,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Yogi Berra',
-        'format' => NULL,
-        'safe_value' => 'Yogi Berra',
-      ),
-    ),
-  ),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -8015,6 +8006,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>He must have made that before he died.&quot; -- Referring to a Steve McQueen movie.</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Yogi Berra',
+        'format' => NULL,
+        'safe_value' => 'Yogi Berra',
       ),
     ),
   ),
@@ -8103,7 +8103,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'b7649193-0dea-4135-ab4b-4ac3ca0caf28',
   'revision_uid' => 1,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -8125,6 +8124,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -8210,15 +8210,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'ba93b9a1-8995-45b3-83a2-10c6f5d5c253',
   'revision_uid' => 1,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'QUEEN ELIZABETH II',
-        'format' => NULL,
-        'safe_value' => 'QUEEN ELIZABETH II',
-      ),
-    ),
-  ),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -8237,6 +8228,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>I learned the way a monkey learns - by watching its parents.</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'QUEEN ELIZABETH II',
+        'format' => NULL,
+        'safe_value' => 'QUEEN ELIZABETH II',
       ),
     ),
   ),
@@ -8325,7 +8325,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'babe9c54-f6e6-4f92-a183-71d079664d26',
   'revision_uid' => 0,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -8347,6 +8346,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -8432,7 +8432,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'baeb693a-2760-49e1-8f05-24bee420bf01',
   'revision_uid' => 0,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -8454,6 +8453,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -8539,15 +8539,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'c1613dc8-1504-4e8f-a797-8ab514418e73',
   'revision_uid' => 1,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Yogi Berra',
-        'format' => NULL,
-        'safe_value' => 'Yogi Berra',
-      ),
-    ),
-  ),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -8566,6 +8557,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>Baseball is 90% mental -- the other half is physical</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Yogi Berra',
+        'format' => NULL,
+        'safe_value' => 'Yogi Berra',
       ),
     ),
   ),
@@ -8654,7 +8654,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'c5fb43ae-a431-400c-a928-f931429fd85e',
   'revision_uid' => 1,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -8676,6 +8675,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -8761,15 +8761,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'c8a8c142-14ed-4e0e-9094-b50fa3ad8337',
   'revision_uid' => 1,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Yogi Berra',
-        'format' => NULL,
-        'safe_value' => 'Yogi Berra',
-      ),
-    ),
-  ),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -8788,6 +8779,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>I want to thank you for making this day necessary.&quot; -- On Yogi Berra Appreciation Day in St. Louis in 1947</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Yogi Berra',
+        'format' => NULL,
+        'safe_value' => 'Yogi Berra',
       ),
     ),
   ),
@@ -8876,7 +8876,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'c9065916-e510-4447-b8ed-5edd7cf9ac0f',
   'revision_uid' => 1,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -8898,6 +8897,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -8983,7 +8983,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'cb4c83bc-bedb-44d2-8f23-0d212a8963d0',
   'revision_uid' => 1,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -9005,6 +9004,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -9090,7 +9090,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'cc5f32aa-1d08-4816-87b2-a70bbd32a9dd',
   'revision_uid' => 0,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -9112,6 +9111,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -9197,15 +9197,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'd164baa4-237c-4796-9bff-f37db39d3afc',
   'revision_uid' => 1,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Murphy\'s Law',
-        'format' => NULL,
-        'safe_value' => 'Murphy&#039;s Law',
-      ),
-    ),
-  ),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -9224,6 +9215,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>Nothing ever gets built on schedule or within budget.</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Murphy\'s Law',
+        'format' => NULL,
+        'safe_value' => 'Murphy&#039;s Law',
       ),
     ),
   ),
@@ -9312,15 +9312,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'd2f045c5-c449-4c69-919f-aae56e32ac6a',
   'revision_uid' => 1,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Yogi Berra',
-        'format' => NULL,
-        'safe_value' => 'Yogi Berra',
-      ),
-    ),
-  ),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -9339,6 +9330,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>Glen Cove. -- Referring to Glenn Close on a movie review television show.</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Yogi Berra',
+        'format' => NULL,
+        'safe_value' => 'Yogi Berra',
       ),
     ),
   ),
@@ -9427,7 +9427,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'd7d39432-5955-4d3c-9ca5-0d3951448ba5',
   'revision_uid' => 1,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -9449,6 +9448,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -9534,15 +9534,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'd84d53e4-7581-43c4-b8a0-e8f376797b7e',
   'revision_uid' => 1,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'ALBERT EINSTEIN',
-        'format' => NULL,
-        'safe_value' => 'ALBERT EINSTEIN',
-      ),
-    ),
-  ),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -9561,6 +9552,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>Only two things are infinite, the universe and human stupidity, and I&#039;m not sure about the former.</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'ALBERT EINSTEIN',
+        'format' => NULL,
+        'safe_value' => 'ALBERT EINSTEIN',
       ),
     ),
   ),
@@ -9649,7 +9649,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'd8eb599f-d37a-4873-8298-5e104d11c201',
   'revision_uid' => 1,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -9671,6 +9670,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -9756,7 +9756,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'da14b5cc-906c-4733-9747-3a5cdf080bc0',
   'revision_uid' => 0,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -9778,6 +9777,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -9863,15 +9863,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'dd3ffdb8-ded1-47ff-bdac-6d71b4ca0f98',
   'revision_uid' => 1,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Yogi Berra',
-        'format' => NULL,
-        'safe_value' => 'Yogi Berra',
-      ),
-    ),
-  ),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -9890,6 +9881,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>If you can&#039;t imitate him, don&#039;t copy him</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Yogi Berra',
+        'format' => NULL,
+        'safe_value' => 'Yogi Berra',
       ),
     ),
   ),
@@ -9978,15 +9978,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'e0daec47-b516-4abb-bcdf-a96ce355b188',
   'revision_uid' => 1,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'The Peter Principle',
-        'format' => NULL,
-        'safe_value' => 'The Peter Principle',
-      ),
-    ),
-  ),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -10005,6 +9996,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>Employees tend to rise to the level of their incompetence.</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'The Peter Principle',
+        'format' => NULL,
+        'safe_value' => 'The Peter Principle',
       ),
     ),
   ),
@@ -10093,15 +10093,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'e57ddb01-5921-4868-bb04-7bc56f33f465',
   'revision_uid' => 1,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Yogi Berra',
-        'format' => NULL,
-        'safe_value' => 'Yogi Berra',
-      ),
-    ),
-  ),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -10120,6 +10111,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>It ain&#039;t over till it&#039;s over</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Yogi Berra',
+        'format' => NULL,
+        'safe_value' => 'Yogi Berra',
       ),
     ),
   ),
@@ -10208,7 +10208,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'e8e382c6-54c0-469f-9e3f-80f1d74942c6',
   'revision_uid' => 0,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -10230,6 +10229,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -10315,7 +10315,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'ec399c90-57d9-4874-9108-52b37f862858',
   'revision_uid' => 1,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -10337,6 +10336,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -10422,15 +10422,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'ed16cf82-6868-4ab1-ab52-3a89e379b2e1',
   'revision_uid' => 1,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Yogi Berra',
-        'format' => NULL,
-        'safe_value' => 'Yogi Berra',
-      ),
-    ),
-  ),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -10449,6 +10440,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>You should always go to other people&#039;s funerals; otherwise, they won&#039;t come to yours</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Yogi Berra',
+        'format' => NULL,
+        'safe_value' => 'Yogi Berra',
       ),
     ),
   ),
@@ -10537,15 +10537,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'edf36c0f-7c98-4021-afe8-952a96cb6266',
   'revision_uid' => 1,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'THOMAS A. EDISON',
-        'format' => NULL,
-        'safe_value' => 'THOMAS A. EDISON',
-      ),
-    ),
-  ),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -10564,6 +10555,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>Results! Why, man, I have gotten a lot of results. I know several thousand things that won&#039;t work.</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'THOMAS A. EDISON',
+        'format' => NULL,
+        'safe_value' => 'THOMAS A. EDISON',
       ),
     ),
   ),
@@ -10652,15 +10652,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'ef550f54-5a26-4f91-b69a-585d3a3032dd',
   'revision_uid' => 1,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Yogi Berra',
-        'format' => NULL,
-        'safe_value' => 'Yogi Berra',
-      ),
-    ),
-  ),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -10679,6 +10670,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>I take a two hour nap, from one o&#039;clock to four.</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Yogi Berra',
+        'format' => NULL,
+        'safe_value' => 'Yogi Berra',
       ),
     ),
   ),
@@ -10767,15 +10767,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'f078e4a7-26f9-44eb-9fde-3db58fbfbe4d',
   'revision_uid' => 1,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'SALLY KEMPTON',
-        'format' => NULL,
-        'safe_value' => 'SALLY KEMPTON',
-      ),
-    ),
-  ),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -10794,6 +10785,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>It is hard to fight an enemy who has outposts in your head.</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'SALLY KEMPTON',
+        'format' => NULL,
+        'safe_value' => 'SALLY KEMPTON',
       ),
     ),
   ),
@@ -10882,7 +10882,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'f402b9c5-dd32-4f5e-b1ef-9fd937ef13f7',
   'revision_uid' => 0,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -10904,6 +10903,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -10989,7 +10989,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'f50bc711-3e49-4eaa-aaaa-587cb6c237ea',
   'revision_uid' => 1,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -11011,6 +11010,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -11096,7 +11096,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'f6537f19-dcfc-448b-b7f5-de2633b6d985',
   'revision_uid' => 1,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -11118,6 +11117,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -11203,7 +11203,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'f8c34080-a7ec-4fb8-ac7f-271747f718da',
   'revision_uid' => 1,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -11225,6 +11224,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -11310,15 +11310,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'f9aaeedd-383b-4019-a966-84f3755e1a3b',
   'revision_uid' => 1,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Murphy\'s Law',
-        'format' => NULL,
-        'safe_value' => 'Murphy&#039;s Law',
-      ),
-    ),
-  ),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -11337,6 +11328,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>If builders built buildings the way computer programmers wrote programs, then the first woodpecker that came along would destroy civilization.</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Murphy\'s Law',
+        'format' => NULL,
+        'safe_value' => 'Murphy&#039;s Law',
       ),
     ),
   ),
@@ -11425,15 +11425,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'fcb66bd9-512a-4839-9d48-e7e9cb7fb304',
   'revision_uid' => 1,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Murphy\'s Real Estate Laws',
-        'format' => NULL,
-        'safe_value' => 'Murphy&#039;s Real Estate Laws',
-      ),
-    ),
-  ),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -11452,6 +11443,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>In order to get a loan, you must first prove you don&#039;t need it.</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Murphy\'s Real Estate Laws',
+        'format' => NULL,
+        'safe_value' => 'Murphy&#039;s Real Estate Laws',
       ),
     ),
   ),
@@ -11540,15 +11540,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'fcff81ba-42a8-4ed3-a07f-c8a55be055c4',
   'revision_uid' => 1,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Yogi Berra',
-        'format' => NULL,
-        'safe_value' => 'Yogi Berra',
-      ),
-    ),
-  ),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -11567,6 +11558,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>This is like deja vu all over again</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Yogi Berra',
+        'format' => NULL,
+        'safe_value' => 'Yogi Berra',
       ),
     ),
   ),
@@ -11655,15 +11655,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'fe379e7a-dd27-44f1-bc84-e43ae6b24d2b',
   'revision_uid' => 1,
-  'field_author' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'EARL WILSON',
-        'format' => NULL,
-        'safe_value' => 'EARL WILSON',
-      ),
-    ),
-  ),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -11682,6 +11673,15 @@ function tipstestimonials_uuid_features_default_content() {
         'safe_value' => '<p>Success is simply a matter of luck. Ask any failure.</p>
 ',
         'safe_summary' => '',
+      ),
+    ),
+  ),
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'EARL WILSON',
+        'format' => NULL,
+        'safe_value' => 'EARL WILSON',
       ),
     ),
   ),
@@ -11770,7 +11770,6 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'feb09767-fd73-4d8b-afcf-ada280802d9f',
   'revision_uid' => 1,
-  'field_author' => array(),
   'field_more_info' => array(),
   'field_tiptype' => array(
     'und' => array(
@@ -11792,6 +11791,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
+  'field_author_source' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',

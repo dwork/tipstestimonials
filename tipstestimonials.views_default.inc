@@ -114,7 +114,7 @@ function tipstestimonials_views_default_views() {
   $handler->display->display_options['fields']['title']['alter']['path'] = '[nid]';
   $handler->display->display_options['fields']['title']['alter']['word_boundary'] = FALSE;
   $handler->display->display_options['fields']['title']['alter']['ellipsis'] = FALSE;
-  /* Field: Content: Author/Source */
+  /* Field: Broken/missing handler */
   $handler->display->display_options['fields']['field_author']['id'] = 'field_author';
   $handler->display->display_options['fields']['field_author']['table'] = 'field_data_field_author';
   $handler->display->display_options['fields']['field_author']['field'] = 'field_author';
@@ -185,11 +185,34 @@ function tipstestimonials_views_default_views() {
   $handler->display->display_options['fields']['field_tip']['table'] = 'field_data_field_tip';
   $handler->display->display_options['fields']['field_tip']['field'] = 'field_tip';
   /* Field: Content: Author/Source */
-  $handler->display->display_options['fields']['field_author']['id'] = 'field_author';
-  $handler->display->display_options['fields']['field_author']['table'] = 'field_data_field_author';
-  $handler->display->display_options['fields']['field_author']['field'] = 'field_author';
-  $handler->display->display_options['fields']['field_author']['label'] = '';
-  $handler->display->display_options['fields']['field_author']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_author_source']['id'] = 'field_author_source';
+  $handler->display->display_options['fields']['field_author_source']['table'] = 'field_data_field_author_source';
+  $handler->display->display_options['fields']['field_author_source']['field'] = 'field_author_source';
+  $handler->display->display_options['fields']['field_author_source']['exclude'] = TRUE;
+  /* Field: Content: Title */
+  $handler->display->display_options['fields']['title']['id'] = 'title';
+  $handler->display->display_options['fields']['title']['table'] = 'node';
+  $handler->display->display_options['fields']['title']['field'] = 'title';
+  $handler->display->display_options['fields']['title']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['title']['link_to_node'] = FALSE;
+  /* Field: Global: PHP */
+  $handler->display->display_options['fields']['php']['id'] = 'php';
+  $handler->display->display_options['fields']['php']['table'] = 'views';
+  $handler->display->display_options['fields']['php']['field'] = 'php';
+  $handler->display->display_options['fields']['php']['label'] = 'Authors/Source';
+  $handler->display->display_options['fields']['php']['use_php_setup'] = 0;
+  $handler->display->display_options['fields']['php']['php_output'] = '<?php
+$node = node_load($data->nid);
+$wrapper = entity_metadata_wrapper(\'node\',$node);
+$author = $wrapper->field_author_source->value();
+if ($author == \' \') {
+    echo $wrapper->title;
+} else {
+    echo $author;
+}
+?>';
+  $handler->display->display_options['fields']['php']['use_php_click_sortable'] = '0';
+  $handler->display->display_options['fields']['php']['php_click_sortable'] = '';
   /* Sort criterion: Global: Random */
   $handler->display->display_options['sorts']['random']['id'] = 'random';
   $handler->display->display_options['sorts']['random']['table'] = 'views';
@@ -265,7 +288,7 @@ function tipstestimonials_views_default_views() {
   /* Display: Testimonials */
   $handler = $view->new_display('block', 'Testimonials', 'block_1');
   $handler->display->display_options['defaults']['title'] = FALSE;
-  $handler->display->display_options['title'] = 'Rotating Tips';
+  $handler->display->display_options['title'] = 'Testimonial';
   $handler->display->display_options['display_description'] = 'Rotating Tips';
   $handler->display->display_options['defaults']['style_plugin'] = FALSE;
   $handler->display->display_options['style_plugin'] = 'default';
@@ -273,18 +296,6 @@ function tipstestimonials_views_default_views() {
   $handler->display->display_options['defaults']['row_plugin'] = FALSE;
   $handler->display->display_options['row_plugin'] = 'fields';
   $handler->display->display_options['defaults']['row_options'] = FALSE;
-  $handler->display->display_options['defaults']['fields'] = FALSE;
-  /* Field: Content: Tip */
-  $handler->display->display_options['fields']['field_tip']['id'] = 'field_tip';
-  $handler->display->display_options['fields']['field_tip']['table'] = 'field_data_field_tip';
-  $handler->display->display_options['fields']['field_tip']['field'] = 'field_tip';
-  $handler->display->display_options['fields']['field_tip']['label'] = 'Testimonial';
-  /* Field: Content: Author/Source */
-  $handler->display->display_options['fields']['field_author']['id'] = 'field_author';
-  $handler->display->display_options['fields']['field_author']['table'] = 'field_data_field_author';
-  $handler->display->display_options['fields']['field_author']['field'] = 'field_author';
-  $handler->display->display_options['fields']['field_author']['label'] = '';
-  $handler->display->display_options['fields']['field_author']['element_label_colon'] = FALSE;
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
   $handler->display->display_options['defaults']['filters'] = FALSE;
   /* Filter criterion: Content: Published */
@@ -324,18 +335,6 @@ function tipstestimonials_views_default_views() {
   $handler->display->display_options['defaults']['row_plugin'] = FALSE;
   $handler->display->display_options['row_plugin'] = 'fields';
   $handler->display->display_options['defaults']['row_options'] = FALSE;
-  $handler->display->display_options['defaults']['fields'] = FALSE;
-  /* Field: Content: Tip */
-  $handler->display->display_options['fields']['field_tip']['id'] = 'field_tip';
-  $handler->display->display_options['fields']['field_tip']['table'] = 'field_data_field_tip';
-  $handler->display->display_options['fields']['field_tip']['field'] = 'field_tip';
-  $handler->display->display_options['fields']['field_tip']['label'] = 'Testimonial';
-  /* Field: Content: Author/Source */
-  $handler->display->display_options['fields']['field_author']['id'] = 'field_author';
-  $handler->display->display_options['fields']['field_author']['table'] = 'field_data_field_author';
-  $handler->display->display_options['fields']['field_author']['field'] = 'field_author';
-  $handler->display->display_options['fields']['field_author']['label'] = '';
-  $handler->display->display_options['fields']['field_author']['element_label_colon'] = FALSE;
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
   $handler->display->display_options['defaults']['filters'] = FALSE;
   /* Filter criterion: Content: Published */
