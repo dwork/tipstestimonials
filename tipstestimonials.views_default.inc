@@ -36,6 +36,8 @@ function tipstestimonials_views_default_views() {
   $handler->display->display_options['fields']['field_tip']['id'] = 'field_tip';
   $handler->display->display_options['fields']['field_tip']['table'] = 'field_data_field_tip';
   $handler->display->display_options['fields']['field_tip']['field'] = 'field_tip';
+  $handler->display->display_options['fields']['field_tip']['label'] = '';
+  $handler->display->display_options['fields']['field_tip']['element_label_colon'] = FALSE;
   /* Field: Content: Author/Source */
   $handler->display->display_options['fields']['field_author_source']['id'] = 'field_author_source';
   $handler->display->display_options['fields']['field_author_source']['table'] = 'field_data_field_author_source';
@@ -57,8 +59,8 @@ function tipstestimonials_views_default_views() {
 $node = node_load($data->nid);
 $wrapper = entity_metadata_wrapper(\'node\',$node);
 $author = $wrapper->field_author_source->value();
-if ($author == \' \') {
-    echo $wrapper->title;
+if (strlen(trim($author)) == 0) {
+    echo $wrapper->title->value();
 } else {
     echo $author;
 }
@@ -87,6 +89,15 @@ if ($author == \' \') {
   $handler->display->display_options['filters']['field_tiptype_tid']['id'] = 'field_tiptype_tid';
   $handler->display->display_options['filters']['field_tiptype_tid']['table'] = 'field_data_field_tiptype';
   $handler->display->display_options['filters']['field_tiptype_tid']['field'] = 'field_tiptype_tid';
+  $handler->display->display_options['filters']['field_tiptype_tid']['value'] = array(
+    111 => '111',
+    107 => '107',
+    108 => '108',
+    106 => '106',
+    110 => '110',
+    109 => '109',
+    105 => '105',
+  );
   $handler->display->display_options['filters']['field_tiptype_tid']['type'] = 'select';
   $handler->display->display_options['filters']['field_tiptype_tid']['vocabulary'] = 'tips';
   $handler->display->display_options['filters']['field_tiptype_tid']['hierarchy'] = 1;
@@ -219,7 +230,7 @@ if ($author == \' \') {
   /* Display: All Tips */
   $handler = $view->new_display('block', 'All Tips', 'block_3');
   $handler->display->display_options['defaults']['title'] = FALSE;
-  $handler->display->display_options['title'] = 'Rotating Tips';
+  $handler->display->display_options['title'] = 'Thought for the Day';
   $handler->display->display_options['display_description'] = 'Rotating Tips (All)';
   $handler->display->display_options['defaults']['style_plugin'] = FALSE;
   $handler->display->display_options['style_plugin'] = 'default';
@@ -249,12 +260,12 @@ if ($author == \' \') {
   $handler->display->display_options['filters']['field_tiptype_tid']['field'] = 'field_tiptype_tid';
   $handler->display->display_options['filters']['field_tiptype_tid']['operator'] = 'not';
   $handler->display->display_options['filters']['field_tiptype_tid']['value'] = array(
-    37 => '37',
+    107 => '107',
   );
   $handler->display->display_options['filters']['field_tiptype_tid']['type'] = 'select';
   $handler->display->display_options['filters']['field_tiptype_tid']['vocabulary'] = 'tips';
   $handler->display->display_options['filters']['field_tiptype_tid']['hierarchy'] = 1;
-  $handler->display->display_options['block_description'] = 'Rotating Tips (All)';
+  $handler->display->display_options['block_description'] = 'Thought for the Day';
   $export['tips_rotating'] = $view;
 
   return $export;
