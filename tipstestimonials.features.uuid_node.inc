@@ -27,15 +27,8 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '00bc9d46-aecc-4a7f-b651-c45d59b6c291',
   'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 38,
-        'uuid' => 'a84c4b55-83b7-4e9b-b253-04b7bd7a19d9',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -48,7 +41,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 108,
+        'uuid' => 'a84c4b55-83b7-4e9b-b253-04b7bd7a19d9',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -104,9 +104,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -114,7 +111,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -134,15 +130,8 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '06acdaa3-883f-40bb-ab78-5bc42a4267ab',
   'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 39,
-        'uuid' => 'baee04e5-c2b5-421b-b92c-bbf0d2d7226a',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -155,7 +144,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 109,
+        'uuid' => 'baee04e5-c2b5-421b-b92c-bbf0d2d7226a',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -211,9 +207,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -221,7 +214,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -241,15 +233,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '07100b91-46f2-4a7a-ad40-d47738858023',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 35,
-        'uuid' => '09a7bd33-0429-4af7-8782-54d612cc1076',
+        'value' => 'Yogi Berra',
+        'format' => NULL,
+        'safe_value' => 'Yogi Berra',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -262,12 +255,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'Yogi Berra',
-        'format' => NULL,
-        'safe_value' => 'Yogi Berra',
+        'tid' => 105,
+        'uuid' => '09a7bd33-0429-4af7-8782-54d612cc1076',
       ),
     ),
   ),
@@ -326,9 +318,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 0,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -336,7 +325,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -356,15 +344,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '08a3e382-1d00-4f52-9c2c-9af23b0d485c',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 35,
-        'uuid' => '09a7bd33-0429-4af7-8782-54d612cc1076',
+        'value' => 'Yogi Berra',
+        'format' => NULL,
+        'safe_value' => 'Yogi Berra',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -377,12 +366,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'Yogi Berra',
-        'format' => NULL,
-        'safe_value' => 'Yogi Berra',
+        'tid' => 105,
+        'uuid' => '09a7bd33-0429-4af7-8782-54d612cc1076',
       ),
     ),
   ),
@@ -441,9 +429,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 0,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -451,7 +436,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -471,15 +455,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '094d1143-17a0-4f50-a5f5-23e060b04264',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 40,
-        'uuid' => 'd2b1f92b-55a4-41f5-989a-2eca44bc0536',
+        'value' => 'ROBIN WILLIAMS',
+        'format' => NULL,
+        'safe_value' => 'ROBIN WILLIAMS',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -492,12 +477,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'ROBIN WILLIAMS',
-        'format' => NULL,
-        'safe_value' => 'ROBIN WILLIAMS',
+        'tid' => 110,
+        'uuid' => 'd2b1f92b-55a4-41f5-989a-2eca44bc0536',
       ),
     ),
   ),
@@ -556,9 +540,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 0,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -566,7 +547,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -586,15 +566,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '09a29762-77b1-49f6-a3b2-3b6d5d3a8b75',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 35,
-        'uuid' => '09a7bd33-0429-4af7-8782-54d612cc1076',
+        'value' => 'Yogi Berra',
+        'format' => NULL,
+        'safe_value' => 'Yogi Berra',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -607,12 +588,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'Yogi Berra',
-        'format' => NULL,
-        'safe_value' => 'Yogi Berra',
+        'tid' => 105,
+        'uuid' => '09a7bd33-0429-4af7-8782-54d612cc1076',
       ),
     ),
   ),
@@ -671,9 +651,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 0,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -681,7 +658,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -701,15 +677,8 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '09e86696-cee2-4cc0-b21b-d3c5935a1d74',
   'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 41,
-        'uuid' => 'f4bfd9d4-f05d-4431-9a26-c76d594ec92b',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -722,7 +691,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 111,
+        'uuid' => 'f4bfd9d4-f05d-4431-9a26-c76d594ec92b',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -778,9 +754,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -788,7 +761,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -808,15 +780,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '12420941-6e23-4565-8178-d91c350e4335',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 35,
-        'uuid' => '09a7bd33-0429-4af7-8782-54d612cc1076',
+        'value' => 'Yogi Berra',
+        'format' => NULL,
+        'safe_value' => 'Yogi Berra',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -829,12 +802,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'Yogi Berra',
-        'format' => NULL,
-        'safe_value' => 'Yogi Berra',
+        'tid' => 105,
+        'uuid' => '09a7bd33-0429-4af7-8782-54d612cc1076',
       ),
     ),
   ),
@@ -893,9 +865,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 0,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -903,7 +872,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -923,15 +891,8 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '1475eec8-33bf-4292-86ae-75bdab53dbf6',
   'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 38,
-        'uuid' => 'a84c4b55-83b7-4e9b-b253-04b7bd7a19d9',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -944,7 +905,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 108,
+        'uuid' => 'a84c4b55-83b7-4e9b-b253-04b7bd7a19d9',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -1000,9 +968,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -1010,7 +975,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -1030,15 +994,8 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '14b62ec1-3571-4654-97f1-7baa942c36fd',
   'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 36,
-        'uuid' => '0d5ef380-160c-44ed-80ab-0e724256af27',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -1051,7 +1008,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 106,
+        'uuid' => '0d5ef380-160c-44ed-80ab-0e724256af27',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -1107,9 +1071,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -1117,7 +1078,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -1137,15 +1097,8 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '17ba47b0-e7f5-4a04-bf9a-53c7f0e36324',
   'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 39,
-        'uuid' => 'baee04e5-c2b5-421b-b92c-bbf0d2d7226a',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -1158,7 +1111,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 109,
+        'uuid' => 'baee04e5-c2b5-421b-b92c-bbf0d2d7226a',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -1214,9 +1174,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -1224,7 +1181,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -1244,15 +1200,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '1e740d77-c73d-4a9b-85d6-1caea9e73ef1',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 40,
-        'uuid' => 'd2b1f92b-55a4-41f5-989a-2eca44bc0536',
+        'value' => 'G. K. CHESTERTON',
+        'format' => NULL,
+        'safe_value' => 'G. K. CHESTERTON',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -1265,12 +1222,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'G. K. CHESTERTON',
-        'format' => NULL,
-        'safe_value' => 'G. K. CHESTERTON',
+        'tid' => 110,
+        'uuid' => 'd2b1f92b-55a4-41f5-989a-2eca44bc0536',
       ),
     ),
   ),
@@ -1329,9 +1285,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 0,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -1339,7 +1292,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -1359,15 +1311,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '202e7237-9189-41e6-a3ed-62c1f419c8bd',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 35,
-        'uuid' => '09a7bd33-0429-4af7-8782-54d612cc1076',
+        'value' => 'Yogi Berra',
+        'format' => NULL,
+        'safe_value' => 'Yogi Berra',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -1380,12 +1333,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'Yogi Berra',
-        'format' => NULL,
-        'safe_value' => 'Yogi Berra',
+        'tid' => 105,
+        'uuid' => '09a7bd33-0429-4af7-8782-54d612cc1076',
       ),
     ),
   ),
@@ -1444,9 +1396,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 0,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -1454,7 +1403,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -1473,16 +1421,9 @@ function tipstestimonials_uuid_features_default_content() {
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '2a53596a-660b-4ccb-84ad-114d6b60b571',
-  'revision_uid' => 0,
+  'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 39,
-        'uuid' => 'baee04e5-c2b5-421b-b92c-bbf0d2d7226a',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -1495,7 +1436,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 109,
+        'uuid' => 'baee04e5-c2b5-421b-b92c-bbf0d2d7226a',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -1551,9 +1499,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -1561,7 +1506,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:57 -0700',
 );
   $nodes[] = array(
@@ -1581,8 +1525,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '2bc228c8-0735-455d-ae9b-12f6698ede26',
   'revision_uid' => 1,
+  'field_author_source' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'ERMA BOMBECK',
+        'format' => NULL,
+        'safe_value' => 'ERMA BOMBECK',
+      ),
+    ),
+  ),
   'field_more_info' => array(),
-  'field_tiptype' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -1595,15 +1547,7 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'ERMA BOMBECK',
-        'format' => NULL,
-        'safe_value' => 'ERMA BOMBECK',
-      ),
-    ),
-  ),
+  'field_tiptype' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -1659,9 +1603,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -1669,7 +1610,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -1689,15 +1629,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '2dddd78f-d6cc-4c54-9c5d-6cf731200d43',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 35,
-        'uuid' => '09a7bd33-0429-4af7-8782-54d612cc1076',
+        'value' => 'Yogi Berra',
+        'format' => NULL,
+        'safe_value' => 'Yogi Berra',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -1710,12 +1651,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'Yogi Berra',
-        'format' => NULL,
-        'safe_value' => 'Yogi Berra',
+        'tid' => 105,
+        'uuid' => '09a7bd33-0429-4af7-8782-54d612cc1076',
       ),
     ),
   ),
@@ -1774,9 +1714,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 0,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -1784,7 +1721,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -1804,15 +1740,8 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '34c2c530-dd9f-469f-b592-206db71efb10',
   'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 39,
-        'uuid' => 'baee04e5-c2b5-421b-b92c-bbf0d2d7226a',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -1825,7 +1754,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 109,
+        'uuid' => 'baee04e5-c2b5-421b-b92c-bbf0d2d7226a',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -1881,9 +1817,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -1891,7 +1824,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -1911,15 +1843,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '368d1a21-72e7-450a-820d-5bd82e795af4',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 40,
-        'uuid' => 'd2b1f92b-55a4-41f5-989a-2eca44bc0536',
+        'value' => 'THOMAS EDISON',
+        'format' => NULL,
+        'safe_value' => 'THOMAS EDISON',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -1932,12 +1865,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'THOMAS EDISON',
-        'format' => NULL,
-        'safe_value' => 'THOMAS EDISON',
+        'tid' => 110,
+        'uuid' => 'd2b1f92b-55a4-41f5-989a-2eca44bc0536',
       ),
     ),
   ),
@@ -1996,9 +1928,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 0,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -2006,7 +1935,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -2026,15 +1954,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '3ae4f46b-6679-4052-9876-f3b97fb868cc',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 40,
-        'uuid' => 'd2b1f92b-55a4-41f5-989a-2eca44bc0536',
+        'value' => 'WALTER CHRYSLER',
+        'format' => NULL,
+        'safe_value' => 'WALTER CHRYSLER',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -2047,12 +1976,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'WALTER CHRYSLER',
-        'format' => NULL,
-        'safe_value' => 'WALTER CHRYSLER',
+        'tid' => 110,
+        'uuid' => 'd2b1f92b-55a4-41f5-989a-2eca44bc0536',
       ),
     ),
   ),
@@ -2111,9 +2039,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 0,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -2121,7 +2046,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -2141,15 +2065,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '3b328272-f4cc-4f9f-ad51-206c1d2ec943',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 40,
-        'uuid' => 'd2b1f92b-55a4-41f5-989a-2eca44bc0536',
+        'value' => 'GROUCHO MARX',
+        'format' => NULL,
+        'safe_value' => 'GROUCHO MARX',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -2162,12 +2087,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'GROUCHO MARX',
-        'format' => NULL,
-        'safe_value' => 'GROUCHO MARX',
+        'tid' => 110,
+        'uuid' => 'd2b1f92b-55a4-41f5-989a-2eca44bc0536',
       ),
     ),
   ),
@@ -2226,9 +2150,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 0,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -2236,7 +2157,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -2256,15 +2176,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '3ba65a83-86d4-41a6-8c44-1edf5162087a',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 40,
-        'uuid' => 'd2b1f92b-55a4-41f5-989a-2eca44bc0536',
+        'value' => 'MICKEY ROONEY',
+        'format' => NULL,
+        'safe_value' => 'MICKEY ROONEY',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -2277,12 +2198,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'MICKEY ROONEY',
-        'format' => NULL,
-        'safe_value' => 'MICKEY ROONEY',
+        'tid' => 110,
+        'uuid' => 'd2b1f92b-55a4-41f5-989a-2eca44bc0536',
       ),
     ),
   ),
@@ -2341,9 +2261,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 0,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -2351,7 +2268,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -2371,15 +2287,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '3bd79a21-b7af-47e4-baca-b0d529365e9a',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 35,
-        'uuid' => '09a7bd33-0429-4af7-8782-54d612cc1076',
+        'value' => 'Yogi Berra',
+        'format' => NULL,
+        'safe_value' => 'Yogi Berra',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -2392,12 +2309,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'Yogi Berra',
-        'format' => NULL,
-        'safe_value' => 'Yogi Berra',
+        'tid' => 105,
+        'uuid' => '09a7bd33-0429-4af7-8782-54d612cc1076',
       ),
     ),
   ),
@@ -2456,9 +2372,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 0,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -2466,7 +2379,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -2486,15 +2398,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '3c5a09d0-e9bd-4cab-bda0-875a01e3cc7f',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 35,
-        'uuid' => '09a7bd33-0429-4af7-8782-54d612cc1076',
+        'value' => 'Yogi Berra',
+        'format' => NULL,
+        'safe_value' => 'Yogi Berra',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -2507,12 +2420,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'Yogi Berra',
-        'format' => NULL,
-        'safe_value' => 'Yogi Berra',
+        'tid' => 105,
+        'uuid' => '09a7bd33-0429-4af7-8782-54d612cc1076',
       ),
     ),
   ),
@@ -2571,9 +2483,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 0,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -2581,7 +2490,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -2601,15 +2509,8 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '3ce9f519-e311-4de6-94e1-29bbbb419081',
   'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 39,
-        'uuid' => 'baee04e5-c2b5-421b-b92c-bbf0d2d7226a',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -2622,7 +2523,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 109,
+        'uuid' => 'baee04e5-c2b5-421b-b92c-bbf0d2d7226a',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -2678,9 +2586,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -2688,7 +2593,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -2708,15 +2612,8 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '3e23df04-31bf-42ae-93a5-73d02d7b5c6e',
   'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 38,
-        'uuid' => 'a84c4b55-83b7-4e9b-b253-04b7bd7a19d9',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -2729,7 +2626,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 108,
+        'uuid' => 'a84c4b55-83b7-4e9b-b253-04b7bd7a19d9',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -2785,9 +2689,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -2795,7 +2696,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -2815,15 +2715,8 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '40541616-b424-4068-a4eb-105646262a07',
   'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 39,
-        'uuid' => 'baee04e5-c2b5-421b-b92c-bbf0d2d7226a',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -2836,7 +2729,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 109,
+        'uuid' => 'baee04e5-c2b5-421b-b92c-bbf0d2d7226a',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -2892,9 +2792,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -2902,7 +2799,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:57 -0700',
 );
   $nodes[] = array(
@@ -2922,15 +2818,8 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '45067bbb-f2f7-43dc-ac96-456d07ee5014',
   'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 39,
-        'uuid' => 'baee04e5-c2b5-421b-b92c-bbf0d2d7226a',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -2943,7 +2832,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 109,
+        'uuid' => 'baee04e5-c2b5-421b-b92c-bbf0d2d7226a',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -2999,9 +2895,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -3009,7 +2902,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -3029,15 +2921,8 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '4caa94f8-165b-4272-ac18-91ca925511bb',
   'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 41,
-        'uuid' => 'f4bfd9d4-f05d-4431-9a26-c76d594ec92b',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -3050,7 +2935,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 111,
+        'uuid' => 'f4bfd9d4-f05d-4431-9a26-c76d594ec92b',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -3106,9 +2998,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -3116,7 +3005,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -3136,15 +3024,8 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '4d241458-b553-4e3f-9418-da1e347ed508',
   'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 36,
-        'uuid' => '0d5ef380-160c-44ed-80ab-0e724256af27',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -3157,7 +3038,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 106,
+        'uuid' => '0d5ef380-160c-44ed-80ab-0e724256af27',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -3213,9 +3101,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -3223,7 +3108,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -3243,15 +3127,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '4d2b8d1b-cd97-4e69-a033-a82a2ed78dcb',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 40,
-        'uuid' => 'd2b1f92b-55a4-41f5-989a-2eca44bc0536',
+        'value' => 'LILY TOMLIN',
+        'format' => NULL,
+        'safe_value' => 'LILY TOMLIN',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -3264,12 +3149,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'LILY TOMLIN',
-        'format' => NULL,
-        'safe_value' => 'LILY TOMLIN',
+        'tid' => 110,
+        'uuid' => 'd2b1f92b-55a4-41f5-989a-2eca44bc0536',
       ),
     ),
   ),
@@ -3328,9 +3212,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 0,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -3338,7 +3219,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -3358,15 +3238,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '4f254ac7-c380-47df-b56b-3c3b995c7b46',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 35,
-        'uuid' => '09a7bd33-0429-4af7-8782-54d612cc1076',
+        'value' => 'Yogi Berra',
+        'format' => NULL,
+        'safe_value' => 'Yogi Berra',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -3379,12 +3260,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'Yogi Berra',
-        'format' => NULL,
-        'safe_value' => 'Yogi Berra',
+        'tid' => 105,
+        'uuid' => '09a7bd33-0429-4af7-8782-54d612cc1076',
       ),
     ),
   ),
@@ -3443,9 +3323,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 0,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -3453,7 +3330,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -3473,15 +3349,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '4f95f4fd-74b4-47d3-92ac-2290328c6e56',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 35,
-        'uuid' => '09a7bd33-0429-4af7-8782-54d612cc1076',
+        'value' => 'Yogi Berra',
+        'format' => NULL,
+        'safe_value' => 'Yogi Berra',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -3494,12 +3371,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'Yogi Berra',
-        'format' => NULL,
-        'safe_value' => 'Yogi Berra',
+        'tid' => 105,
+        'uuid' => '09a7bd33-0429-4af7-8782-54d612cc1076',
       ),
     ),
   ),
@@ -3558,9 +3434,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 0,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -3568,7 +3441,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -3588,15 +3460,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '530b6cc4-a5d4-4bee-8f9c-1edd6c0c93ae',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 35,
-        'uuid' => '09a7bd33-0429-4af7-8782-54d612cc1076',
+        'value' => 'Yogi Berra',
+        'format' => NULL,
+        'safe_value' => 'Yogi Berra',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -3609,12 +3482,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'Yogi Berra',
-        'format' => NULL,
-        'safe_value' => 'Yogi Berra',
+        'tid' => 105,
+        'uuid' => '09a7bd33-0429-4af7-8782-54d612cc1076',
       ),
     ),
   ),
@@ -3673,9 +3545,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 0,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -3683,7 +3552,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -3703,15 +3571,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '538ea94c-7242-4e1c-9c0b-4385a2f0b91b',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 40,
-        'uuid' => 'd2b1f92b-55a4-41f5-989a-2eca44bc0536',
+        'value' => 'GLORIA STEINEM',
+        'format' => NULL,
+        'safe_value' => 'GLORIA STEINEM',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -3724,12 +3593,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'GLORIA STEINEM',
-        'format' => NULL,
-        'safe_value' => 'GLORIA STEINEM',
+        'tid' => 110,
+        'uuid' => 'd2b1f92b-55a4-41f5-989a-2eca44bc0536',
       ),
     ),
   ),
@@ -3788,9 +3656,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 0,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -3798,7 +3663,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -3818,15 +3682,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '53e5082f-591f-4b8c-ad2b-5edfe8af0147',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 40,
-        'uuid' => 'd2b1f92b-55a4-41f5-989a-2eca44bc0536',
+        'value' => 'W. H. AUDEN',
+        'format' => NULL,
+        'safe_value' => 'W. H. AUDEN',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -3839,12 +3704,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'W. H. AUDEN',
-        'format' => NULL,
-        'safe_value' => 'W. H. AUDEN',
+        'tid' => 110,
+        'uuid' => 'd2b1f92b-55a4-41f5-989a-2eca44bc0536',
       ),
     ),
   ),
@@ -3903,9 +3767,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 0,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -3913,7 +3774,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -3933,15 +3793,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '54360947-af10-4e02-88a7-f8118449f012',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 35,
-        'uuid' => '09a7bd33-0429-4af7-8782-54d612cc1076',
+        'value' => 'Yogi Berra',
+        'format' => NULL,
+        'safe_value' => 'Yogi Berra',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -3954,12 +3815,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'Yogi Berra',
-        'format' => NULL,
-        'safe_value' => 'Yogi Berra',
+        'tid' => 105,
+        'uuid' => '09a7bd33-0429-4af7-8782-54d612cc1076',
       ),
     ),
   ),
@@ -4018,9 +3878,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 0,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -4028,7 +3885,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -4048,15 +3904,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '59899231-5649-45d8-8e85-b9c897a7d595',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 40,
-        'uuid' => 'd2b1f92b-55a4-41f5-989a-2eca44bc0536',
+        'value' => 'JAPANESE PROVERB',
+        'format' => NULL,
+        'safe_value' => 'JAPANESE PROVERB',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -4069,12 +3926,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'JAPANESE PROVERB',
-        'format' => NULL,
-        'safe_value' => 'JAPANESE PROVERB',
+        'tid' => 110,
+        'uuid' => 'd2b1f92b-55a4-41f5-989a-2eca44bc0536',
       ),
     ),
   ),
@@ -4133,9 +3989,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 0,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -4143,7 +3996,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -4163,15 +4015,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '59f1be1b-f439-441f-8620-6dd077e37f6d',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 40,
-        'uuid' => 'd2b1f92b-55a4-41f5-989a-2eca44bc0536',
+        'value' => 'WOODY ALLEN',
+        'format' => NULL,
+        'safe_value' => 'WOODY ALLEN',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -4184,12 +4037,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'WOODY ALLEN',
-        'format' => NULL,
-        'safe_value' => 'WOODY ALLEN',
+        'tid' => 110,
+        'uuid' => 'd2b1f92b-55a4-41f5-989a-2eca44bc0536',
       ),
     ),
   ),
@@ -4248,9 +4100,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 0,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -4258,7 +4107,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -4278,15 +4126,8 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '5ad7dfc3-c807-470c-b5d7-9750128d5e0a',
   'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 36,
-        'uuid' => '0d5ef380-160c-44ed-80ab-0e724256af27',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -4299,7 +4140,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 106,
+        'uuid' => '0d5ef380-160c-44ed-80ab-0e724256af27',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -4355,9 +4203,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -4365,7 +4210,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -4385,15 +4229,8 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '655ea152-f1ae-4143-9252-c82efedc2778',
   'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 38,
-        'uuid' => 'a84c4b55-83b7-4e9b-b253-04b7bd7a19d9',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -4406,7 +4243,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 108,
+        'uuid' => 'a84c4b55-83b7-4e9b-b253-04b7bd7a19d9',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -4462,9 +4306,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -4472,7 +4313,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -4492,15 +4332,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '66dce4a9-624e-4f24-93db-6c7f9a69e27c',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 40,
-        'uuid' => 'd2b1f92b-55a4-41f5-989a-2eca44bc0536',
+        'value' => 'GARRISON KEILLOR',
+        'format' => NULL,
+        'safe_value' => 'GARRISON KEILLOR',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -4513,12 +4354,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'GARRISON KEILLOR',
-        'format' => NULL,
-        'safe_value' => 'GARRISON KEILLOR',
+        'tid' => 110,
+        'uuid' => 'd2b1f92b-55a4-41f5-989a-2eca44bc0536',
       ),
     ),
   ),
@@ -4577,9 +4417,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 0,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -4587,7 +4424,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -4607,15 +4443,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '685e81f8-7e2e-40d7-8aea-78595c42cc62',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 40,
-        'uuid' => 'd2b1f92b-55a4-41f5-989a-2eca44bc0536',
+        'value' => 'JAY LENO',
+        'format' => NULL,
+        'safe_value' => 'JAY LENO',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -4628,12 +4465,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'JAY LENO',
-        'format' => NULL,
-        'safe_value' => 'JAY LENO',
+        'tid' => 110,
+        'uuid' => 'd2b1f92b-55a4-41f5-989a-2eca44bc0536',
       ),
     ),
   ),
@@ -4692,9 +4528,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 0,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -4702,7 +4535,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -4722,15 +4554,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '690c5db0-ce8e-4734-a010-df0fdbf4a425',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 39,
-        'uuid' => 'baee04e5-c2b5-421b-b92c-bbf0d2d7226a',
+        'value' => 'Scott Adams',
+        'format' => NULL,
+        'safe_value' => 'Scott Adams',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -4743,12 +4576,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'Scott Adams',
-        'format' => NULL,
-        'safe_value' => 'Scott Adams',
+        'tid' => 109,
+        'uuid' => 'baee04e5-c2b5-421b-b92c-bbf0d2d7226a',
       ),
     ),
   ),
@@ -4807,9 +4639,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -4817,7 +4646,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -4837,15 +4665,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '69e80142-98d3-40b4-9f72-a122b24477ac',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 40,
-        'uuid' => 'd2b1f92b-55a4-41f5-989a-2eca44bc0536',
+        'value' => 'YODA',
+        'format' => NULL,
+        'safe_value' => 'YODA',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -4858,12 +4687,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'YODA',
-        'format' => NULL,
-        'safe_value' => 'YODA',
+        'tid' => 110,
+        'uuid' => 'd2b1f92b-55a4-41f5-989a-2eca44bc0536',
       ),
     ),
   ),
@@ -4922,9 +4750,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 0,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -4932,7 +4757,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -4951,16 +4775,9 @@ function tipstestimonials_uuid_features_default_content() {
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '69f53c4f-484d-4bbc-a4ff-8bd88abb2c53',
-  'revision_uid' => 0,
+  'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 38,
-        'uuid' => 'a84c4b55-83b7-4e9b-b253-04b7bd7a19d9',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -4973,7 +4790,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 108,
+        'uuid' => 'a84c4b55-83b7-4e9b-b253-04b7bd7a19d9',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -5029,9 +4853,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -5039,7 +4860,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -5058,16 +4878,9 @@ function tipstestimonials_uuid_features_default_content() {
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '6afed5bf-dfd4-4030-946f-a4d9be37fb8e',
-  'revision_uid' => 0,
+  'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 38,
-        'uuid' => 'a84c4b55-83b7-4e9b-b253-04b7bd7a19d9',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -5080,7 +4893,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 108,
+        'uuid' => 'a84c4b55-83b7-4e9b-b253-04b7bd7a19d9',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -5136,9 +4956,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -5146,7 +4963,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -5165,16 +4981,9 @@ function tipstestimonials_uuid_features_default_content() {
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '6c967d00-d712-415f-8c5b-863a03218cc2',
-  'revision_uid' => 0,
+  'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 39,
-        'uuid' => 'baee04e5-c2b5-421b-b92c-bbf0d2d7226a',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -5187,7 +4996,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 109,
+        'uuid' => 'baee04e5-c2b5-421b-b92c-bbf0d2d7226a',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -5243,9 +5059,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -5253,7 +5066,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -5272,16 +5084,9 @@ function tipstestimonials_uuid_features_default_content() {
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '6cfcbf8a-f3e9-45a3-82db-c7e0f94d81b5',
-  'revision_uid' => 0,
+  'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 38,
-        'uuid' => 'a84c4b55-83b7-4e9b-b253-04b7bd7a19d9',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -5294,7 +5099,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 108,
+        'uuid' => 'a84c4b55-83b7-4e9b-b253-04b7bd7a19d9',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -5350,9 +5162,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -5360,7 +5169,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -5379,16 +5187,9 @@ function tipstestimonials_uuid_features_default_content() {
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '7594a0bd-71e4-405c-b4bb-01454ac119ec',
-  'revision_uid' => 0,
+  'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 38,
-        'uuid' => 'a84c4b55-83b7-4e9b-b253-04b7bd7a19d9',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -5401,7 +5202,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 108,
+        'uuid' => 'a84c4b55-83b7-4e9b-b253-04b7bd7a19d9',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -5457,9 +5265,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -5467,7 +5272,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -5487,15 +5291,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '7a9ef6a8-279c-4153-ae3c-7cf0347edb6f',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 40,
-        'uuid' => 'd2b1f92b-55a4-41f5-989a-2eca44bc0536',
+        'value' => 'Dr. Lawrence J. Peter',
+        'format' => NULL,
+        'safe_value' => 'Dr. Lawrence J. Peter',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -5508,12 +5313,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'Dr. Lawrence J. Peter',
-        'format' => NULL,
-        'safe_value' => 'Dr. Lawrence J. Peter',
+        'tid' => 110,
+        'uuid' => 'd2b1f92b-55a4-41f5-989a-2eca44bc0536',
       ),
     ),
   ),
@@ -5572,9 +5376,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -5582,7 +5383,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -5601,16 +5401,9 @@ function tipstestimonials_uuid_features_default_content() {
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '7e7f2752-493d-4d33-b5f7-668eb09f81c2',
-  'revision_uid' => 0,
+  'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 41,
-        'uuid' => 'f4bfd9d4-f05d-4431-9a26-c76d594ec92b',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -5623,7 +5416,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 111,
+        'uuid' => 'f4bfd9d4-f05d-4431-9a26-c76d594ec92b',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -5679,9 +5479,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -5689,7 +5486,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -5708,16 +5504,9 @@ function tipstestimonials_uuid_features_default_content() {
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '7e8b9124-2464-43f3-9e62-5ee98432fd24',
-  'revision_uid' => 0,
+  'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 39,
-        'uuid' => 'baee04e5-c2b5-421b-b92c-bbf0d2d7226a',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -5730,7 +5519,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 109,
+        'uuid' => 'baee04e5-c2b5-421b-b92c-bbf0d2d7226a',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -5786,9 +5582,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -5796,7 +5589,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -5815,16 +5607,9 @@ function tipstestimonials_uuid_features_default_content() {
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '8b327092-fd2c-4712-990b-ebd6360d4557',
-  'revision_uid' => 0,
+  'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 41,
-        'uuid' => 'f4bfd9d4-f05d-4431-9a26-c76d594ec92b',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -5837,7 +5622,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 111,
+        'uuid' => 'f4bfd9d4-f05d-4431-9a26-c76d594ec92b',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -5893,9 +5685,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -5903,7 +5692,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -5923,15 +5711,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '8b6f96e2-8eef-489c-9eb8-1408c900c011',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 39,
-        'uuid' => 'baee04e5-c2b5-421b-b92c-bbf0d2d7226a',
+        'value' => 'Arthur C. Clark',
+        'format' => NULL,
+        'safe_value' => 'Arthur C. Clark',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -5944,12 +5733,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'Arthur C. Clark',
-        'format' => NULL,
-        'safe_value' => 'Arthur C. Clark',
+        'tid' => 109,
+        'uuid' => 'baee04e5-c2b5-421b-b92c-bbf0d2d7226a',
       ),
     ),
   ),
@@ -6008,9 +5796,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -6018,7 +5803,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -6037,16 +5821,9 @@ function tipstestimonials_uuid_features_default_content() {
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '8c396b23-fb45-427c-9018-599e8fe3328c',
-  'revision_uid' => 0,
+  'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 39,
-        'uuid' => 'baee04e5-c2b5-421b-b92c-bbf0d2d7226a',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -6059,7 +5836,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 109,
+        'uuid' => 'baee04e5-c2b5-421b-b92c-bbf0d2d7226a',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -6115,9 +5899,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -6125,7 +5906,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -6144,16 +5924,9 @@ function tipstestimonials_uuid_features_default_content() {
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '8c824f7c-2c19-4aba-965e-8af9121759a8',
-  'revision_uid' => 0,
+  'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 38,
-        'uuid' => 'a84c4b55-83b7-4e9b-b253-04b7bd7a19d9',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -6166,7 +5939,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 108,
+        'uuid' => 'a84c4b55-83b7-4e9b-b253-04b7bd7a19d9',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -6222,9 +6002,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -6232,7 +6009,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -6251,16 +6027,9 @@ function tipstestimonials_uuid_features_default_content() {
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '8e915847-253e-4c6a-b8ee-4df8aab0801b',
-  'revision_uid' => 0,
+  'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 36,
-        'uuid' => '0d5ef380-160c-44ed-80ab-0e724256af27',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -6273,7 +6042,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 106,
+        'uuid' => '0d5ef380-160c-44ed-80ab-0e724256af27',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -6329,9 +6105,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -6339,7 +6112,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -6359,15 +6131,8 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '90e45222-b78d-478c-9c53-d8a3a8201ae8',
   'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 36,
-        'uuid' => '0d5ef380-160c-44ed-80ab-0e724256af27',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -6380,7 +6145,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 106,
+        'uuid' => '0d5ef380-160c-44ed-80ab-0e724256af27',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -6436,9 +6208,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -6446,7 +6215,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -6466,15 +6234,8 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '918c721e-c945-47d0-ad27-fc846b7d22fe',
   'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 39,
-        'uuid' => 'baee04e5-c2b5-421b-b92c-bbf0d2d7226a',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -6487,7 +6248,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 109,
+        'uuid' => 'baee04e5-c2b5-421b-b92c-bbf0d2d7226a',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -6543,9 +6311,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -6553,7 +6318,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -6573,15 +6337,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '92f70554-0286-49c2-955f-14d9d4fab533',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 35,
-        'uuid' => '09a7bd33-0429-4af7-8782-54d612cc1076',
+        'value' => 'Yogi Berra',
+        'format' => NULL,
+        'safe_value' => 'Yogi Berra',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -6594,12 +6359,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'Yogi Berra',
-        'format' => NULL,
-        'safe_value' => 'Yogi Berra',
+        'tid' => 105,
+        'uuid' => '09a7bd33-0429-4af7-8782-54d612cc1076',
       ),
     ),
   ),
@@ -6658,9 +6422,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 0,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -6668,7 +6429,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -6688,15 +6448,8 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '968c29ab-2f7f-4cd1-9da9-d6df3747a455',
   'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 41,
-        'uuid' => 'f4bfd9d4-f05d-4431-9a26-c76d594ec92b',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -6709,7 +6462,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 111,
+        'uuid' => 'f4bfd9d4-f05d-4431-9a26-c76d594ec92b',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -6765,9 +6525,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -6775,7 +6532,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -6795,15 +6551,8 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '9739c096-d711-42be-93d5-28776545ab6e',
   'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 38,
-        'uuid' => 'a84c4b55-83b7-4e9b-b253-04b7bd7a19d9',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -6816,7 +6565,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 108,
+        'uuid' => 'a84c4b55-83b7-4e9b-b253-04b7bd7a19d9',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -6872,9 +6628,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -6882,7 +6635,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -6902,15 +6654,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '98d3728e-411d-45b5-a126-18bc11ae24f5',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 40,
-        'uuid' => 'd2b1f92b-55a4-41f5-989a-2eca44bc0536',
+        'value' => 'BERTOLT BRECHT',
+        'format' => NULL,
+        'safe_value' => 'BERTOLT BRECHT',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -6923,12 +6676,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'BERTOLT BRECHT',
-        'format' => NULL,
-        'safe_value' => 'BERTOLT BRECHT',
+        'tid' => 110,
+        'uuid' => 'd2b1f92b-55a4-41f5-989a-2eca44bc0536',
       ),
     ),
   ),
@@ -6987,9 +6739,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 0,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -6997,7 +6746,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -7017,15 +6765,8 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '9af4a5a1-a353-49af-9296-fd271b52cc38',
   'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 41,
-        'uuid' => 'f4bfd9d4-f05d-4431-9a26-c76d594ec92b',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -7038,7 +6779,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 111,
+        'uuid' => 'f4bfd9d4-f05d-4431-9a26-c76d594ec92b',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -7094,9 +6842,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -7104,7 +6849,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -7124,15 +6868,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => '9c60821f-a93a-434f-9abc-08ec37606d7e',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 35,
-        'uuid' => '09a7bd33-0429-4af7-8782-54d612cc1076',
+        'value' => 'Yogi Berra',
+        'format' => NULL,
+        'safe_value' => 'Yogi Berra',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -7145,12 +6890,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'Yogi Berra',
-        'format' => NULL,
-        'safe_value' => 'Yogi Berra',
+        'tid' => 105,
+        'uuid' => '09a7bd33-0429-4af7-8782-54d612cc1076',
       ),
     ),
   ),
@@ -7209,9 +6953,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 0,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -7219,7 +6960,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -7239,15 +6979,8 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'a2bffc44-a83d-4e3c-99a5-7857832a1419',
   'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 38,
-        'uuid' => 'a84c4b55-83b7-4e9b-b253-04b7bd7a19d9',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -7260,7 +6993,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 108,
+        'uuid' => 'a84c4b55-83b7-4e9b-b253-04b7bd7a19d9',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -7316,9 +7056,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -7326,7 +7063,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -7346,15 +7082,8 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'a51854b8-c4f9-4665-99a6-0e8946022b0f',
   'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 38,
-        'uuid' => 'a84c4b55-83b7-4e9b-b253-04b7bd7a19d9',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -7367,7 +7096,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 108,
+        'uuid' => 'a84c4b55-83b7-4e9b-b253-04b7bd7a19d9',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -7423,9 +7159,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -7433,7 +7166,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -7453,15 +7185,8 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'a942fdb7-0692-429b-9b74-9a9f903d32e0',
   'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 38,
-        'uuid' => 'a84c4b55-83b7-4e9b-b253-04b7bd7a19d9',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -7474,7 +7199,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 108,
+        'uuid' => 'a84c4b55-83b7-4e9b-b253-04b7bd7a19d9',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -7530,9 +7262,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -7540,7 +7269,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -7560,15 +7288,8 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'aa85d334-ecec-4212-80e0-e1737ca960ee',
   'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 38,
-        'uuid' => 'a84c4b55-83b7-4e9b-b253-04b7bd7a19d9',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -7581,7 +7302,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 108,
+        'uuid' => 'a84c4b55-83b7-4e9b-b253-04b7bd7a19d9',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -7637,9 +7365,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -7647,7 +7372,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -7666,16 +7390,9 @@ function tipstestimonials_uuid_features_default_content() {
   'tnid' => 0,
   'translate' => 0,
   'uuid' => 'acdc41e9-e821-4b60-8e02-e84664822897',
-  'revision_uid' => 0,
+  'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 39,
-        'uuid' => 'baee04e5-c2b5-421b-b92c-bbf0d2d7226a',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -7688,7 +7405,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 109,
+        'uuid' => 'baee04e5-c2b5-421b-b92c-bbf0d2d7226a',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -7744,9 +7468,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -7754,7 +7475,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -7773,16 +7493,9 @@ function tipstestimonials_uuid_features_default_content() {
   'tnid' => 0,
   'translate' => 0,
   'uuid' => 'ade99af9-20f5-4782-8c8d-9474a990c93b',
-  'revision_uid' => 0,
+  'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 39,
-        'uuid' => 'baee04e5-c2b5-421b-b92c-bbf0d2d7226a',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -7795,7 +7508,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 109,
+        'uuid' => 'baee04e5-c2b5-421b-b92c-bbf0d2d7226a',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -7851,9 +7571,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -7861,7 +7578,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -7881,15 +7597,8 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'b30b948b-1e51-4dc7-ba19-43a685d2d8ea',
   'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 38,
-        'uuid' => 'a84c4b55-83b7-4e9b-b253-04b7bd7a19d9',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -7902,7 +7611,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 108,
+        'uuid' => 'a84c4b55-83b7-4e9b-b253-04b7bd7a19d9',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -7958,9 +7674,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -7968,7 +7681,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -7988,15 +7700,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'b63b4d3e-6426-4ed9-9f84-a2c92be14ecd',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 35,
-        'uuid' => '09a7bd33-0429-4af7-8782-54d612cc1076',
+        'value' => 'Yogi Berra',
+        'format' => NULL,
+        'safe_value' => 'Yogi Berra',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -8009,12 +7722,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'Yogi Berra',
-        'format' => NULL,
-        'safe_value' => 'Yogi Berra',
+        'tid' => 105,
+        'uuid' => '09a7bd33-0429-4af7-8782-54d612cc1076',
       ),
     ),
   ),
@@ -8073,9 +7785,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 0,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -8083,7 +7792,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -8103,15 +7811,8 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'b7649193-0dea-4135-ab4b-4ac3ca0caf28',
   'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 38,
-        'uuid' => 'a84c4b55-83b7-4e9b-b253-04b7bd7a19d9',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -8124,7 +7825,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 108,
+        'uuid' => 'a84c4b55-83b7-4e9b-b253-04b7bd7a19d9',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -8180,9 +7888,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -8190,7 +7895,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -8210,15 +7914,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'ba93b9a1-8995-45b3-83a2-10c6f5d5c253',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 40,
-        'uuid' => 'd2b1f92b-55a4-41f5-989a-2eca44bc0536',
+        'value' => 'QUEEN ELIZABETH II',
+        'format' => NULL,
+        'safe_value' => 'QUEEN ELIZABETH II',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -8231,12 +7936,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'QUEEN ELIZABETH II',
-        'format' => NULL,
-        'safe_value' => 'QUEEN ELIZABETH II',
+        'tid' => 110,
+        'uuid' => 'd2b1f92b-55a4-41f5-989a-2eca44bc0536',
       ),
     ),
   ),
@@ -8295,9 +7999,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 0,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -8305,7 +8006,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -8324,16 +8024,9 @@ function tipstestimonials_uuid_features_default_content() {
   'tnid' => 0,
   'translate' => 0,
   'uuid' => 'babe9c54-f6e6-4f92-a183-71d079664d26',
-  'revision_uid' => 0,
+  'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 39,
-        'uuid' => 'baee04e5-c2b5-421b-b92c-bbf0d2d7226a',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -8346,7 +8039,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 109,
+        'uuid' => 'baee04e5-c2b5-421b-b92c-bbf0d2d7226a',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -8402,9 +8102,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -8412,7 +8109,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -8431,16 +8127,9 @@ function tipstestimonials_uuid_features_default_content() {
   'tnid' => 0,
   'translate' => 0,
   'uuid' => 'baeb693a-2760-49e1-8f05-24bee420bf01',
-  'revision_uid' => 0,
+  'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 39,
-        'uuid' => 'baee04e5-c2b5-421b-b92c-bbf0d2d7226a',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -8453,7 +8142,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 109,
+        'uuid' => 'baee04e5-c2b5-421b-b92c-bbf0d2d7226a',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -8509,9 +8205,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -8519,7 +8212,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -8539,15 +8231,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'c1613dc8-1504-4e8f-a797-8ab514418e73',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 35,
-        'uuid' => '09a7bd33-0429-4af7-8782-54d612cc1076',
+        'value' => 'Yogi Berra',
+        'format' => NULL,
+        'safe_value' => 'Yogi Berra',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -8560,12 +8253,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'Yogi Berra',
-        'format' => NULL,
-        'safe_value' => 'Yogi Berra',
+        'tid' => 105,
+        'uuid' => '09a7bd33-0429-4af7-8782-54d612cc1076',
       ),
     ),
   ),
@@ -8624,9 +8316,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 0,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -8634,7 +8323,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -8654,15 +8342,8 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'c5fb43ae-a431-400c-a928-f931429fd85e',
   'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 39,
-        'uuid' => 'baee04e5-c2b5-421b-b92c-bbf0d2d7226a',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -8675,7 +8356,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 109,
+        'uuid' => 'baee04e5-c2b5-421b-b92c-bbf0d2d7226a',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -8731,9 +8419,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -8741,7 +8426,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -8761,15 +8445,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'c8a8c142-14ed-4e0e-9094-b50fa3ad8337',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 35,
-        'uuid' => '09a7bd33-0429-4af7-8782-54d612cc1076',
+        'value' => 'Yogi Berra',
+        'format' => NULL,
+        'safe_value' => 'Yogi Berra',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -8782,12 +8467,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'Yogi Berra',
-        'format' => NULL,
-        'safe_value' => 'Yogi Berra',
+        'tid' => 105,
+        'uuid' => '09a7bd33-0429-4af7-8782-54d612cc1076',
       ),
     ),
   ),
@@ -8846,9 +8530,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 0,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -8856,7 +8537,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -8876,15 +8556,8 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'c9065916-e510-4447-b8ed-5edd7cf9ac0f',
   'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 39,
-        'uuid' => 'baee04e5-c2b5-421b-b92c-bbf0d2d7226a',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -8897,7 +8570,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 109,
+        'uuid' => 'baee04e5-c2b5-421b-b92c-bbf0d2d7226a',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -8953,9 +8633,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -8963,7 +8640,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -8983,15 +8659,8 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'cb4c83bc-bedb-44d2-8f23-0d212a8963d0',
   'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 39,
-        'uuid' => 'baee04e5-c2b5-421b-b92c-bbf0d2d7226a',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -9004,7 +8673,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 109,
+        'uuid' => 'baee04e5-c2b5-421b-b92c-bbf0d2d7226a',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -9060,9 +8736,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -9070,7 +8743,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -9089,16 +8761,9 @@ function tipstestimonials_uuid_features_default_content() {
   'tnid' => 0,
   'translate' => 0,
   'uuid' => 'cc5f32aa-1d08-4816-87b2-a70bbd32a9dd',
-  'revision_uid' => 0,
+  'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 41,
-        'uuid' => 'f4bfd9d4-f05d-4431-9a26-c76d594ec92b',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -9111,7 +8776,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 111,
+        'uuid' => 'f4bfd9d4-f05d-4431-9a26-c76d594ec92b',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -9167,9 +8839,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -9177,7 +8846,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:57 -0700',
 );
   $nodes[] = array(
@@ -9197,15 +8865,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'd164baa4-237c-4796-9bff-f37db39d3afc',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 41,
-        'uuid' => 'f4bfd9d4-f05d-4431-9a26-c76d594ec92b',
+        'value' => 'Murphy\'s Law',
+        'format' => NULL,
+        'safe_value' => 'Murphy&#039;s Law',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -9218,12 +8887,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'Murphy\'s Law',
-        'format' => NULL,
-        'safe_value' => 'Murphy&#039;s Law',
+        'tid' => 111,
+        'uuid' => 'f4bfd9d4-f05d-4431-9a26-c76d594ec92b',
       ),
     ),
   ),
@@ -9282,9 +8950,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -9292,7 +8957,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -9312,15 +8976,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'd2f045c5-c449-4c69-919f-aae56e32ac6a',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 35,
-        'uuid' => '09a7bd33-0429-4af7-8782-54d612cc1076',
+        'value' => 'Yogi Berra',
+        'format' => NULL,
+        'safe_value' => 'Yogi Berra',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -9333,12 +8998,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'Yogi Berra',
-        'format' => NULL,
-        'safe_value' => 'Yogi Berra',
+        'tid' => 105,
+        'uuid' => '09a7bd33-0429-4af7-8782-54d612cc1076',
       ),
     ),
   ),
@@ -9397,9 +9061,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 0,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -9407,7 +9068,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -9427,15 +9087,8 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'd7d39432-5955-4d3c-9ca5-0d3951448ba5',
   'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 41,
-        'uuid' => 'f4bfd9d4-f05d-4431-9a26-c76d594ec92b',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -9448,7 +9101,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 111,
+        'uuid' => 'f4bfd9d4-f05d-4431-9a26-c76d594ec92b',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -9504,9 +9164,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -9514,7 +9171,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -9534,15 +9190,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'd84d53e4-7581-43c4-b8a0-e8f376797b7e',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 40,
-        'uuid' => 'd2b1f92b-55a4-41f5-989a-2eca44bc0536',
+        'value' => 'ALBERT EINSTEIN',
+        'format' => NULL,
+        'safe_value' => 'ALBERT EINSTEIN',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -9555,12 +9212,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'ALBERT EINSTEIN',
-        'format' => NULL,
-        'safe_value' => 'ALBERT EINSTEIN',
+        'tid' => 110,
+        'uuid' => 'd2b1f92b-55a4-41f5-989a-2eca44bc0536',
       ),
     ),
   ),
@@ -9619,9 +9275,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 0,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -9629,7 +9282,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -9649,15 +9301,8 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'd8eb599f-d37a-4873-8298-5e104d11c201',
   'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 41,
-        'uuid' => 'f4bfd9d4-f05d-4431-9a26-c76d594ec92b',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -9670,7 +9315,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 111,
+        'uuid' => 'f4bfd9d4-f05d-4431-9a26-c76d594ec92b',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -9726,9 +9378,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -9736,7 +9385,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -9755,16 +9403,9 @@ function tipstestimonials_uuid_features_default_content() {
   'tnid' => 0,
   'translate' => 0,
   'uuid' => 'da14b5cc-906c-4733-9747-3a5cdf080bc0',
-  'revision_uid' => 0,
+  'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 41,
-        'uuid' => 'f4bfd9d4-f05d-4431-9a26-c76d594ec92b',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -9777,7 +9418,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 111,
+        'uuid' => 'f4bfd9d4-f05d-4431-9a26-c76d594ec92b',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -9833,9 +9481,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -9843,7 +9488,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:57 -0700',
 );
   $nodes[] = array(
@@ -9863,15 +9507,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'dd3ffdb8-ded1-47ff-bdac-6d71b4ca0f98',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 35,
-        'uuid' => '09a7bd33-0429-4af7-8782-54d612cc1076',
+        'value' => 'Yogi Berra',
+        'format' => NULL,
+        'safe_value' => 'Yogi Berra',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -9884,12 +9529,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'Yogi Berra',
-        'format' => NULL,
-        'safe_value' => 'Yogi Berra',
+        'tid' => 105,
+        'uuid' => '09a7bd33-0429-4af7-8782-54d612cc1076',
       ),
     ),
   ),
@@ -9948,9 +9592,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 0,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -9958,7 +9599,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -9978,15 +9618,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'e0daec47-b516-4abb-bcdf-a96ce355b188',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 39,
-        'uuid' => 'baee04e5-c2b5-421b-b92c-bbf0d2d7226a',
+        'value' => 'The Peter Principle',
+        'format' => NULL,
+        'safe_value' => 'The Peter Principle',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -9999,12 +9640,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'The Peter Principle',
-        'format' => NULL,
-        'safe_value' => 'The Peter Principle',
+        'tid' => 109,
+        'uuid' => 'baee04e5-c2b5-421b-b92c-bbf0d2d7226a',
       ),
     ),
   ),
@@ -10063,17 +9703,13 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 1,
   'comment_count' => 0,
   'name' => 'admin',
   'picture' => 0,
-  'data' => 'a:1:{s:7:"contact";i:1;}',
-  'pathauto_perform_alias' => FALSE,
+  'data' => 'a:2:{s:7:"overlay";i:1;s:18:"htmlmail_plaintext";i:0;}',
   'date' => '2016-06-10 09:49:46 -0700',
 );
   $nodes[] = array(
@@ -10093,15 +9729,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'e57ddb01-5921-4868-bb04-7bc56f33f465',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 35,
-        'uuid' => '09a7bd33-0429-4af7-8782-54d612cc1076',
+        'value' => 'Yogi Berra',
+        'format' => NULL,
+        'safe_value' => 'Yogi Berra',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -10114,12 +9751,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'Yogi Berra',
-        'format' => NULL,
-        'safe_value' => 'Yogi Berra',
+        'tid' => 105,
+        'uuid' => '09a7bd33-0429-4af7-8782-54d612cc1076',
       ),
     ),
   ),
@@ -10178,9 +9814,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 0,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -10188,7 +9821,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -10207,16 +9839,9 @@ function tipstestimonials_uuid_features_default_content() {
   'tnid' => 0,
   'translate' => 0,
   'uuid' => 'e8e382c6-54c0-469f-9e3f-80f1d74942c6',
-  'revision_uid' => 0,
+  'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 39,
-        'uuid' => 'baee04e5-c2b5-421b-b92c-bbf0d2d7226a',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -10229,7 +9854,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 109,
+        'uuid' => 'baee04e5-c2b5-421b-b92c-bbf0d2d7226a',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -10285,9 +9917,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -10295,7 +9924,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:05:51 -0700',
 );
   $nodes[] = array(
@@ -10315,15 +9943,8 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'ec399c90-57d9-4874-9108-52b37f862858',
   'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 41,
-        'uuid' => 'f4bfd9d4-f05d-4431-9a26-c76d594ec92b',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -10336,7 +9957,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 111,
+        'uuid' => 'f4bfd9d4-f05d-4431-9a26-c76d594ec92b',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -10392,9 +10020,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -10402,7 +10027,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -10422,15 +10046,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'ed16cf82-6868-4ab1-ab52-3a89e379b2e1',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 35,
-        'uuid' => '09a7bd33-0429-4af7-8782-54d612cc1076',
+        'value' => 'Yogi Berra',
+        'format' => NULL,
+        'safe_value' => 'Yogi Berra',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -10443,12 +10068,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'Yogi Berra',
-        'format' => NULL,
-        'safe_value' => 'Yogi Berra',
+        'tid' => 105,
+        'uuid' => '09a7bd33-0429-4af7-8782-54d612cc1076',
       ),
     ),
   ),
@@ -10507,9 +10131,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 0,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -10517,7 +10138,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -10537,15 +10157,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'edf36c0f-7c98-4021-afe8-952a96cb6266',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 40,
-        'uuid' => 'd2b1f92b-55a4-41f5-989a-2eca44bc0536',
+        'value' => 'THOMAS A. EDISON',
+        'format' => NULL,
+        'safe_value' => 'THOMAS A. EDISON',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -10558,12 +10179,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'THOMAS A. EDISON',
-        'format' => NULL,
-        'safe_value' => 'THOMAS A. EDISON',
+        'tid' => 110,
+        'uuid' => 'd2b1f92b-55a4-41f5-989a-2eca44bc0536',
       ),
     ),
   ),
@@ -10622,9 +10242,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 0,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -10632,7 +10249,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -10652,15 +10268,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'ef550f54-5a26-4f91-b69a-585d3a3032dd',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 35,
-        'uuid' => '09a7bd33-0429-4af7-8782-54d612cc1076',
+        'value' => 'Yogi Berra',
+        'format' => NULL,
+        'safe_value' => 'Yogi Berra',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -10673,12 +10290,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'Yogi Berra',
-        'format' => NULL,
-        'safe_value' => 'Yogi Berra',
+        'tid' => 105,
+        'uuid' => '09a7bd33-0429-4af7-8782-54d612cc1076',
       ),
     ),
   ),
@@ -10737,9 +10353,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 0,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -10747,7 +10360,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -10767,15 +10379,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'f078e4a7-26f9-44eb-9fde-3db58fbfbe4d',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 40,
-        'uuid' => 'd2b1f92b-55a4-41f5-989a-2eca44bc0536',
+        'value' => 'SALLY KEMPTON',
+        'format' => NULL,
+        'safe_value' => 'SALLY KEMPTON',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -10788,12 +10401,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'SALLY KEMPTON',
-        'format' => NULL,
-        'safe_value' => 'SALLY KEMPTON',
+        'tid' => 110,
+        'uuid' => 'd2b1f92b-55a4-41f5-989a-2eca44bc0536',
       ),
     ),
   ),
@@ -10852,9 +10464,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 0,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -10862,7 +10471,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -10881,16 +10489,9 @@ function tipstestimonials_uuid_features_default_content() {
   'tnid' => 0,
   'translate' => 0,
   'uuid' => 'f402b9c5-dd32-4f5e-b1ef-9fd937ef13f7',
-  'revision_uid' => 0,
+  'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 41,
-        'uuid' => 'f4bfd9d4-f05d-4431-9a26-c76d594ec92b',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -10903,7 +10504,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 111,
+        'uuid' => 'f4bfd9d4-f05d-4431-9a26-c76d594ec92b',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -10959,9 +10567,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -10969,7 +10574,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:57 -0700',
 );
   $nodes[] = array(
@@ -10989,15 +10593,8 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'f50bc711-3e49-4eaa-aaaa-587cb6c237ea',
   'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 39,
-        'uuid' => 'baee04e5-c2b5-421b-b92c-bbf0d2d7226a',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -11010,7 +10607,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 109,
+        'uuid' => 'baee04e5-c2b5-421b-b92c-bbf0d2d7226a',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -11066,9 +10670,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -11076,7 +10677,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -11096,15 +10696,8 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'f6537f19-dcfc-448b-b7f5-de2633b6d985',
   'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 41,
-        'uuid' => 'f4bfd9d4-f05d-4431-9a26-c76d594ec92b',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -11117,7 +10710,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 111,
+        'uuid' => 'f4bfd9d4-f05d-4431-9a26-c76d594ec92b',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -11173,9 +10773,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -11183,7 +10780,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -11203,15 +10799,8 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'f8c34080-a7ec-4fb8-ac7f-271747f718da',
   'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 36,
-        'uuid' => '0d5ef380-160c-44ed-80ab-0e724256af27',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -11224,7 +10813,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 106,
+        'uuid' => '0d5ef380-160c-44ed-80ab-0e724256af27',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -11280,9 +10876,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -11290,7 +10883,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -11310,15 +10902,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'f9aaeedd-383b-4019-a966-84f3755e1a3b',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 39,
-        'uuid' => 'baee04e5-c2b5-421b-b92c-bbf0d2d7226a',
+        'value' => 'Murphy\'s Law',
+        'format' => NULL,
+        'safe_value' => 'Murphy&#039;s Law',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -11331,12 +10924,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'Murphy\'s Law',
-        'format' => NULL,
-        'safe_value' => 'Murphy&#039;s Law',
+        'tid' => 109,
+        'uuid' => 'baee04e5-c2b5-421b-b92c-bbf0d2d7226a',
       ),
     ),
   ),
@@ -11395,9 +10987,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -11405,7 +10994,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -11425,15 +11013,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'fcb66bd9-512a-4839-9d48-e7e9cb7fb304',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 41,
-        'uuid' => 'f4bfd9d4-f05d-4431-9a26-c76d594ec92b',
+        'value' => 'Murphy\'s Real Estate Laws',
+        'format' => NULL,
+        'safe_value' => 'Murphy&#039;s Real Estate Laws',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -11446,12 +11035,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'Murphy\'s Real Estate Laws',
-        'format' => NULL,
-        'safe_value' => 'Murphy&#039;s Real Estate Laws',
+        'tid' => 111,
+        'uuid' => 'f4bfd9d4-f05d-4431-9a26-c76d594ec92b',
       ),
     ),
   ),
@@ -11510,9 +11098,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -11520,7 +11105,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -11540,15 +11124,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'fcff81ba-42a8-4ed3-a07f-c8a55be055c4',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 35,
-        'uuid' => '09a7bd33-0429-4af7-8782-54d612cc1076',
+        'value' => 'Yogi Berra',
+        'format' => NULL,
+        'safe_value' => 'Yogi Berra',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -11561,12 +11146,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'Yogi Berra',
-        'format' => NULL,
-        'safe_value' => 'Yogi Berra',
+        'tid' => 105,
+        'uuid' => '09a7bd33-0429-4af7-8782-54d612cc1076',
       ),
     ),
   ),
@@ -11625,9 +11209,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 0,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -11635,7 +11216,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -11655,15 +11235,16 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'fe379e7a-dd27-44f1-bc84-e43ae6b24d2b',
   'revision_uid' => 1,
-  'field_more_info' => array(),
-  'field_tiptype' => array(
+  'field_author_source' => array(
     'und' => array(
       0 => array(
-        'tid' => 40,
-        'uuid' => 'd2b1f92b-55a4-41f5-989a-2eca44bc0536',
+        'value' => 'EARL WILSON',
+        'format' => NULL,
+        'safe_value' => 'EARL WILSON',
       ),
     ),
   ),
+  'field_more_info' => array(),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -11676,12 +11257,11 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(
+  'field_tiptype' => array(
     'und' => array(
       0 => array(
-        'value' => 'EARL WILSON',
-        'format' => NULL,
-        'safe_value' => 'EARL WILSON',
+        'tid' => 110,
+        'uuid' => 'd2b1f92b-55a4-41f5-989a-2eca44bc0536',
       ),
     ),
   ),
@@ -11740,9 +11320,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 0,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -11750,7 +11327,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   $nodes[] = array(
@@ -11770,15 +11346,8 @@ function tipstestimonials_uuid_features_default_content() {
   'translate' => 0,
   'uuid' => 'feb09767-fd73-4d8b-afcf-ada280802d9f',
   'revision_uid' => 1,
+  'field_author_source' => array(),
   'field_more_info' => array(),
-  'field_tiptype' => array(
-    'und' => array(
-      0 => array(
-        'tid' => 41,
-        'uuid' => 'f4bfd9d4-f05d-4431-9a26-c76d594ec92b',
-      ),
-    ),
-  ),
   'field_tip' => array(
     'und' => array(
       0 => array(
@@ -11791,7 +11360,14 @@ function tipstestimonials_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_author_source' => array(),
+  'field_tiptype' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 111,
+        'uuid' => 'f4bfd9d4-f05d-4431-9a26-c76d594ec92b',
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -11847,9 +11423,6 @@ function tipstestimonials_uuid_features_default_content() {
       'callback' => 'date_iso8601',
     ),
   ),
-  'path' => array(
-    'pathauto' => 1,
-  ),
   'cid' => 0,
   'last_comment_name' => NULL,
   'last_comment_uid' => 0,
@@ -11857,7 +11430,6 @@ function tipstestimonials_uuid_features_default_content() {
   'name' => '',
   'picture' => 0,
   'data' => NULL,
-  'pathauto_perform_alias' => FALSE,
   'date' => '2016-06-01 23:08:55 -0700',
 );
   return $nodes;

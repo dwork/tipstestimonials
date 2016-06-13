@@ -10,7 +10,7 @@
 function tipstestimonials_field_default_field_instances() {
   $field_instances = array();
 
-  // Exported field_instance: 'node-tips-field_author_source'.
+  // Exported field_instance: 'node-tips-field_author_source'
   $field_instances['node-tips-field_author_source'] = array(
     'bundle' => 'tips',
     'default_value' => NULL,
@@ -51,7 +51,7 @@ function tipstestimonials_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-tips-field_more_info'.
+  // Exported field_instance: 'node-tips-field_more_info'
   $field_instances['node-tips-field_more_info'] = array(
     'bundle' => 'tips',
     'default_value' => NULL,
@@ -108,7 +108,7 @@ function tipstestimonials_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-tips-field_tip'.
+  // Exported field_instance: 'node-tips-field_tip'
   $field_instances['node-tips-field_tip'] = array(
     'bundle' => 'tips',
     'default_value' => NULL,
@@ -151,7 +151,7 @@ function tipstestimonials_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-tips-field_tiptype'.
+  // Exported field_instance: 'node-tips-field_tiptype'
   $field_instances['node-tips-field_tiptype'] = array(
     'bundle' => 'tips',
     'default_value' => NULL,
@@ -189,7 +189,7 @@ function tipstestimonials_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'taxonomy_term-tips-field_tipstatus'.
+  // Exported field_instance: 'taxonomy_term-tips-field_tipstatus'
   $field_instances['taxonomy_term-tips-field_tipstatus'] = array(
     'bundle' => 'tips',
     'default_value' => array(
